@@ -1,0 +1,732 @@
+/* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap");
+.news-section .section-wrapper .row, .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat, .pricing-item .pricing-inner .pricing-content .get-ticket a ul, .pricing-plan-section .section-wrapper .row, .speaker-item .speaker-inner .speaker-content .spkr-content-details .social-icons, .speaker-item .speaker-inner, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body .ev-list, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .ev-title, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a, .banner-14 .banner-wrapper .banner-content .event-sponsored, .banner-14 .banner-wrapper .banner-content .countdown {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.icon, .pricing-item .pricing-inner .pricing-content .facilites .facility-item span i, .speaker-item .speaker-inner .speaker-thumb, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body, .section-header h2 {
+  position: relative;
+}
+
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.icon:after, .pricing-item .pricing-inner .pricing-content .facilites .facility-item span i:after, .speaker-item .speaker-inner .speaker-thumb:after, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a.collapsed .ev-title-thumb .child-thumb, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .ev-title .ev-title-thumb .child-thumb, .section-header h2:after {
+  position: absolute;
+  content: "";
+}
+
+.news-item .news-inner .news-thumb, .news-item .news-inner, .pricing-item .pricing-inner .pricing-content .get-ticket, .news-item .news-inner .news-content h6 a {
+  overflow: hidden;
+}
+
+.news-item .news-inner .news-thumb img, .speaker-item .speaker-inner, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .ev-title .ev-title-thumb img {
+  width: 100%;
+}
+
+.news-section .section-wrapper .row, .pricing-plan-section .section-wrapper .row {
+  justify-content: center;
+}
+
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a {
+  justify-content: space-between;
+}
+
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .ev-title, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a, .banner-14 .banner-wrapper .banner-content .event-sponsored {
+  align-items: center;
+}
+
+/* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
+.news-item .news-inner .news-content h6 a {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+/* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.icon, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body, .event-schedule-section .event-schedule-trigger .title {
+  background-color: #ffffff;
+}
+
+.pricing-item .pricing-inner .pricing-content .get-ticket a:hover ul .icon {
+  background: #df01ae;
+}
+
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.icon, .pricing-item .pricing-inner .pricing-header, .event-schedule-section .event-schedule-trigger .title, .section-header {
+  text-align: center;
+}
+
+/* @@@@@@@@@@@@@  Extend Property Margin 10 - 30 CSS Writing Now  @@@@@@@@@@@@@@ */
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li p, .pricing-item .pricing-inner .pricing-content .get-ticket a ul, .pricing-item .pricing-inner .pricing-content .facilites, .pricing-item .pricing-inner .pricing-header p, .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a p, .event-schedule-section .event-schedule-trigger .title, .section-header p {
+  margin-bottom: 0px;
+}
+
+.pricing-item .pricing-inner .pricing-header h3 {
+  margin-bottom: 10px;
+}
+
+.event-gift-section .section-header {
+  margin-left: 0;
+}
+
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat h4 {
+  margin-right: 5px;
+}
+
+.event-gift-section .gift-content .gift-list .gift-item span {
+  margin-right: 10px;
+}
+
+.news-item .news-inner .news-content p, .speaker-item .speaker-inner .speaker-content .spkr-content-details p, .speaker-item .speaker-inner .speaker-content .spkr-content-title p {
+  margin-bottom: 15px;
+}
+
+.pricing-item .pricing-inner .pricing-content .facilites .facility-item span {
+  margin-right: 15px;
+}
+
+.news-item .news-inner .news-content h6, .section-header h2 {
+  margin-bottom: 20px;
+}
+
+.speaker-item .speaker-inner .speaker-content .spkr-content-title h5 {
+  margin-bottom: 5px;
+}
+
+.banner-14 .banner-wrapper .banner-content .countdown {
+  margin-bottom: 30px;
+}
+
+.event-gift-section .gift-content .register-button {
+  margin-top: 30px;
+}
+
+/* @@@@@@@@@@@@@  Extend Property padding 10 - 30 CSS Writing Now  @@@@@@@@@@@@@@ */
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a {
+  padding: 15px;
+}
+
+.pricing-item .pricing-inner .pricing-content .get-ticket a {
+  padding: 20px;
+}
+
+.news-item .news-inner .news-content {
+  padding: 30px;
+}
+
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body {
+  padding-top: 0;
+}
+
+.speaker-item .speaker-inner .speaker-content {
+  padding-bottom: 20px;
+}
+
+/*======== Common Css start here ===========*/
+body {
+  background: #00163f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  line-height: 1;
+  font-weight: 700;
+  color: #ffffff !important;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  font-family: "Arvo", serif;
+}
+
+p {
+  color: #ffffff !important;
+}
+
+h1 {
+  font-size: 48px;
+}
+@media (min-width: 576px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+h2 {
+  font-size: 35px;
+}
+@media (min-width: 576px) {
+  h2 {
+    font-size: 48px;
+  }
+}
+
+h3 {
+  font-size: 30px;
+}
+@media (min-width: 576px) {
+  h3 {
+    font-size: 35px;
+  }
+}
+
+h4 {
+  font-size: 24px;
+}
+@media (min-width: 576px) {
+  h4 {
+    font-size: 30px;
+  }
+}
+
+h5 {
+  font-size: 20px;
+}
+@media (min-width: 576px) {
+  h5 {
+    font-size: 24px;
+  }
+}
+
+h6 {
+  font-size: 18px;
+}
+@media (min-width: 576px) {
+  h6 {
+    font-size: 20px;
+  }
+}
+
+.lab-btn {
+  display: inline-block;
+  line-height: 56px;
+  padding: 0 2.2rem;
+  transition: 0.3s;
+  box-shadow: 3px 3px 0 currentColor;
+  border-radius: 4px;
+  font-family: "Arvo", serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: capitalize !important;
+  color: #df01ae !important;
+  background: #ffffff;
+}
+.lab-btn:hover {
+  box-shadow: none;
+  color: currentColor;
+}
+
+.section-header {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 40px !important;
+}
+.section-header h2 {
+  text-shadow: 2px 2px 0 #df01ae;
+  z-index: 9 !important;
+}
+.section-header h2:after {
+  width: 210px;
+  height: 210px;
+  background: url(../../images/index-14/shapes/header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -85px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.section-header p {
+  font-family: "Arvo", serif;
+  font-size: 16px;
+  letter-spacing: 0.5rem;
+}
+
+.sponsor-14 {
+  background: url(../../images/index-14/event/01.png);
+  background-size: cover;
+}
+
+/*======== Common Css end here ===========*/
+/*======== header css start here  =========*/
+.header-14 .menu-14 {
+  background: rgba(0, 22, 63, 0.95);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.header-14 .menu-14 .header-cart-ticket-option {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header-14 .menu-14 .header-cart-ticket-option .menu_cart span:before {
+  background: #df01ae;
+}
+.header-14 .menu-14 .header-cart-ticket-option .lab-btn {
+  background-color: #ffffff !important;
+  padding: 0 1rem !important;
+  color: #df01ae;
+}
+@media (min-width: 992px) {
+  .header-14 .menu-14 .header-cart-ticket-option .lab-btn {
+    padding: 0 2rem !important;
+  }
+}
+.header-14 .menu-14 .navbar-right .dropdown .dropdown-menu {
+  background: #00163f;
+}
+.header-14 .menu-14 .navbar-right .dropdown .dropdown-menu li.active a {
+  background: #df01ae !important;
+  color: #ffffff !important;
+}
+.header-14 .menu-14 .navbar-right .dropdown .dropdown-menu li a:hover {
+  background: #df01ae;
+  color: #ffffff;
+}
+
+/*======== header css end here  =========*/
+/*======== Banner css start here  =========*/
+.banner-14 {
+  background: url(../../images/index-14/banner/bg.jpg);
+  background-size: cover;
+}
+.banner-14 .banner-wrapper {
+  padding: 80px 0;
+}
+@media (min-width: 992px) {
+  .banner-14 .banner-wrapper {
+    padding-top: 250px;
+    padding-bottom: 85px;
+  }
+}
+.banner-14 .banner-wrapper .banner-content .countdown {
+  column-gap: 20px;
+  row-gap: 15px;
+}
+@media (max-width: 991px) {
+  .banner-14 .banner-wrapper .banner-content .countdown {
+    justify-content: center;
+  }
+}
+.banner-14 .banner-wrapper .banner-content .countdown .clock-item {
+  list-style: none;
+  width: 70px;
+  height: 80px;
+}
+.banner-14 .banner-wrapper .banner-content .countdown .clock-item .count-number {
+  background: #df01ae;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Arvo", serif;
+  padding: 1rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  border-radius: 4px 4px 0 0;
+}
+.banner-14 .banner-wrapper .banner-content .countdown .clock-item .count-text {
+  background: #ffffff;
+  font-family: "Arvo", serif;
+  font-size: 18px;
+  color: #00163f !important;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  border-radius: 0 0 4px 4px;
+}
+.banner-14 .banner-wrapper .banner-content h1 {
+  text-shadow: 2px 2px 0 #df01ae;
+  font-style: italic;
+  line-height: 1.286;
+  margin-bottom: 18px;
+}
+@media (min-width: 576px) {
+  .banner-14 .banner-wrapper .banner-content h1 {
+    font-size: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner-14 .banner-wrapper .banner-content h1 {
+    font-size: 70px;
+  }
+}
+.banner-14 .banner-wrapper .banner-content p {
+  max-width: 390px;
+  font-size: 18px;
+  font-family: "Arvo", serif;
+  line-height: 2;
+}
+@media (max-width: 991px) {
+  .banner-14 .banner-wrapper .banner-content p {
+    margin: 0 auto 30px;
+  }
+}
+.banner-14 .banner-wrapper .banner-content .lab-btn {
+  margin-bottom: 50px;
+}
+@media (max-width: 575px) {
+  .banner-14 .banner-wrapper .banner-content .event-sponsored {
+    justify-content: center;
+  }
+}
+.banner-14 .banner-wrapper .banner-content .event-sponsored p {
+  margin-bottom: 0;
+}
+.banner-14 .banner-wrapper .banner-content .event-sponsored img {
+  margin-left: 20px;
+}
+
+/*======== Banner css end here  =========*/
+.about .section-header h2:after {
+  top: -40px;
+}
+
+/*======== Event Schedule css start here  =========*/
+.event-schedule-section {
+  background: url(../../images/index-14/event/01.png);
+  background-size: cover;
+}
+.event-schedule-section .event-schedule-trigger .title {
+  color: #df01ae !important;
+  padding: 1.3rem;
+  border-radius: 4px;
+  border-top: 5px solid #df01ae;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel {
+  background: none;
+  border: none;
+  border-radius: 4px;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a {
+  background: #ffffff;
+  border-bottom: none;
+  height: auto;
+  line-height: inherit;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .ev-title {
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .ev-title .ev-title-thumb {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .ev-title .ev-title-thumb .child-thumb {
+  z-index: 1;
+  opacity: 1;
+  transition: 0.3s all linear;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  transform: translateY(-10px);
+}
+@media (max-width: 575px) {
+  .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .ev-title .ev-title-thumb .child-thumb {
+    transform: translate(40px, -52px);
+  }
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .ev-title .ev-title-content h6 {
+  color: #df01ae !important;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .faq-icon {
+  border-left: none;
+}
+@media (max-width: 575px) {
+  .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .faq-icon {
+    display: none;
+  }
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a .faq-icon i {
+  color: #df01ae;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a p {
+  color: #df01ae !important;
+}
+@media (max-width: 575px) {
+  .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a p {
+    display: none;
+  }
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a.collapsed {
+  background: rgba(255, 255, 255, 0.1);
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a.collapsed .ev-title-thumb .child-thumb {
+  z-index: 1;
+  opacity: 0;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a.collapsed .ev-title-content h6 {
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a.collapsed .faq-icon i {
+  color: #ffffff;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-heading .faq-title a.collapsed p {
+  color: #ffffff !important;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body {
+  text-align: left;
+}
+@media (min-width: 576px) {
+  .event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body {
+    padding-left: 85px;
+  }
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body p {
+  color: #555555 !important;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body .ev-list {
+  column-gap: 15px;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body .ev-list .ev-li-item {
+  list-style: none;
+}
+.event-schedule-section .event-schedule-trigger .panel-group .panel .faq-collapse .faq-body .ev-list .ev-li-item i {
+  color: #df01ae;
+  font-size: 16px;
+}
+
+/*======== Event Schedule css end here  =========*/
+/*======== Speaker item start here =========*/
+.speaker-item .speaker-inner {
+  align-items: flex-end;
+  column-gap: 30px;
+}
+
+.speaker-item .speaker-inner .speaker-thumb {
+  width: 40%;
+}
+.speaker-item .speaker-inner .speaker-thumb:after {
+  bottom: 0;
+  left: -20px;
+  width: 250px;
+  height: 250px;
+  background: url(../../images/index-14/speakers/bg.png);
+  z-index: -1;
+  background-size: cover;
+}
+
+.speaker-item .speaker-inner .speaker-content {
+  /* width: calc(100% - 40% - 30px); */
+}
+.speaker-item .speaker-inner .speaker-content .spkr-content-title p {
+  font-size: 16px;
+}
+.speaker-item .speaker-inner .speaker-content .spkr-content-details p {
+  font-size: 16px;
+}
+.speaker-item .speaker-inner .speaker-content .spkr-content-details .social-icons {
+  column-gap: 15px;
+}
+.speaker-item .speaker-inner .speaker-content .spkr-content-details .social-icons li {
+  list-style: none;
+}
+.speaker-item .speaker-inner .speaker-content .spkr-content-details .social-icons li a i {
+  color: #ffffff;
+  font-size: 16px;
+  transition: 0.3s linear;
+}
+.speaker-item .speaker-inner .speaker-content .spkr-content-details .social-icons li a:hover i {
+  color: #df01ae;
+}
+
+/*======== Speaker item end here =========*/
+/*======== Pricing Plan item start here =========*/
+.pricing-plan-section .section-wrapper .row {
+  row-gap: 30px;
+}
+
+.pricing-item .pricing-inner {
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.1);
+}
+.pricing-item .pricing-inner .pricing-header {
+  background: url(../../images/index-14/pricing-plan/01.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  border-radius: 6px 6px 0 0;
+}
+.pricing-item .pricing-inner .pricing-header p {
+  font-family: "Arvo", serif;
+  font-size: 16px;
+}
+.pricing-item .pricing-inner .pricing-content .facilites {
+  padding: 30px 25px;
+}
+.pricing-item .pricing-inner .pricing-content .facilites .facility-item {
+  text-align: left;
+  list-style: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 6px 0;
+}
+.pricing-item .pricing-inner .pricing-content .facilites .facility-item span i {
+  color: #df01ae;
+  font-size: 20px;
+}
+.pricing-item .pricing-inner .pricing-content .facilites .facility-item span i:after {
+  height: 90%;
+  width: 2px;
+  background: #df01ae;
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pricing-item .pricing-inner .pricing-content .facilites .facility-item:last-child span i:after {
+  display: none;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0 0 6px 6px;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a {
+  display: block;
+}
+@media (min-width: 576px) {
+  .pricing-item .pricing-inner .pricing-content .get-ticket a {
+    padding: 20px 30px;
+  }
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li {
+  list-style: none;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li p {
+  font-family: "Arvo", serif;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat {
+  align-items: flex-end;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat h4 {
+  color: #df01ae !important;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat p {
+  color: #df01ae !important;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: 0.2s all linear;
+  z-index: 9;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.icon:after {
+  width: 1px;
+  height: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a ul li.ticket-text p {
+  font-weight: 700;
+}
+.pricing-item .pricing-inner .pricing-content .get-ticket a:hover ul .icon {
+  color: #ffffff;
+}
+
+/*======== Pricing Plan item end here =========*/
+/*======== Gift Sectin start here =========*/
+.event-gift-section {
+  background: url(../../images/index-14/event/01.png);
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .event-gift-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+}
+.event-gift-section .section-header {
+  text-align: left;
+}
+.event-gift-section .section-header h2:after {
+  left: 20%;
+}
+.event-gift-section .gift-content p {
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: left;
+}
+.event-gift-section .gift-content .gift-list .gift-item {
+  list-style: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 7px 0;
+  font-family: "Arvo", serif;
+  text-align: left;
+}
+.event-gift-section .gift-content .gift-list .gift-item span {
+  color: #df01ae;
+}
+@media (max-width: 991px) {
+  .event-gift-section .gift-content .register-button {
+    margin-bottom: 30px;
+  }
+}
+
+/*======== Gift Sectin end here =========*/
+/*======== News section start here =========*/
+.news-item .news-inner {
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.news-item .news-inner .news-thumb img {
+  transition: 0.3s all linear;
+}
+.news-item .news-inner .news-content {
+  border-bottom: 5px solid #df01ae;
+}
+.news-item .news-inner .news-content h6 a {
+  color: #ffffff;
+  line-height: 1.5;
+  transition: 0.2s all linear;
+}
+.news-item .news-inner .news-content p {
+  font-size: 16px;
+}
+.news-item:hover .news-thumb img {
+  transform: scale(1.08) rotate(-4deg);
+}
+.news-item:hover .news-content h6 a {
+  color: #df01ae;
+  text-decoration: underline;
+}
+
+.news-section .section-wrapper .row {
+  row-gap: 30px;
+}
+
+/*======== News section end here =========*/
+
+@media (max-width: 575px) {
+  .speaker-item .speaker-inner {
+    justify-content: center;
+  }
+  .speaker-item .speaker-inner .speaker-thumb:after {
+    left: -60px;
+  }
+  .speaker-item .speaker-inner .speaker-content .spkr-content-details .social-icons {
+    justify-content: center;
+  }
+  .speaker-item .speaker-inner .speaker-content {
+    padding: 40px 0;
+  }
+}
+@media (min-width: 576px) {
+  .speaker-item .speaker-inner .speaker-content {
+    width: calc(100% - 40% - 30px);
+    text-align: left;
+  }
+}
