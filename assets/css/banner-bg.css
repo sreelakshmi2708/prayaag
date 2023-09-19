@@ -362,10 +362,10 @@
 
 
 
-.banner-dark .cb-slideshow li:nth-child(1) span { background-image: url(../../images/dark-banner/01.jpg) }
-.banner-dark .cb-slideshow.cb-slideshow-two li:nth-child(1) span { background-image: url(../../images/dark-banner/01.jpg) }
+.banner-dark .cb-slideshow li:nth-child(1) span { background-image: url(../../images/dark-banner/02.jpg) }
+.banner-dark .cb-slideshow.cb-slideshow-two li:nth-child(1) span { background-image: url(../../images/dark-banner/02.jpg) }
 .banner-dark .cb-slideshow li:nth-child(2) span {
-    background-image: url(../../images/dark-banner/01.jpg);
+    background-image: url(../../images/dark-banner/02.jpg);
 }
 .banner-dark .cb-slideshow.cb-slideshow-two li:nth-child(2) span {
     background-image: url(../../images/dark-banner/02.jpg);
@@ -373,24 +373,4 @@
 .banner-dark .cb-slideshow li:nth-child(3) span {
     background-image: url(../../images/dark-banner/02.jpg);
 }
-.banner-dark .cb-slideshow.cb-slideshow-two li:nth-child(3) span {
-    background-image: url(../../images/dark-banner/03.jpg);
-}
-.banner-dark .cb-slideshow li:nth-child(4) span {
-    background-image: url(../../images/dark-banner/04.jpg);
-}
-.banner-dark .cb-slideshow.cb-slideshow-two li:nth-child(4) span {
-    background-image: url(../../images/dark-banner/04.jpg);
-}
-.banner-dark .cb-slideshow li:nth-child(5) span {
-    background-image: url(../../images/dark-banner/05.jpg);
-}
-.banner-dark .cb-slideshow.cb-slideshow-two li:nth-child(5) span {
-    background-image: url(../../images/dark-banner/05.jpg);
-}
-.banner-dark .cb-slideshow li:nth-child(6) span {
-    background-image: url(../../images/dark-banner/06.jpg);
-}
-.banner-dark .cb-slideshow.cb-slideshow-two li:nth-child(6) span {
-    background-image: url(../../images/dark-banner/06.jpg);
-}
+
