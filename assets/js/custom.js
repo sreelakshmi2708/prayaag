@@ -110,7 +110,7 @@
 
 
     $('#countdown').countdown({
-        date: '12/31/2021 17:00:00',
+        date: '10/01/2023 09:00:00',
         offset: +2,
         day: 'Day',
         days: 'Days'
