@@ -1059,7 +1059,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .banner .banner-content {
@@ -1181,7 +1181,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .banner .content-right .clock-item:nth-child(2) span {
-    background-color: #92278f;
+    background-color: #e53535;
 }
 
 .banner .content-right .clock-item:nth-child(3) span {
@@ -1243,7 +1243,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .banner-two .banner-content .clock-item:nth-child(2) {
-    color: #92278f;
+    color: #359227;
 }
 
 .banner-two .banner-content .clock-item:nth-child(3) {
