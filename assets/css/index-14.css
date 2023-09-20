@@ -247,7 +247,7 @@ h6 {
 }
 
 .sponsor-14 {
-  background: url(../../images/index-14/event/01.png);
+  background: url(../../images/index/bg.png);
   background-size: cover;
 }
 
@@ -388,10 +388,13 @@ h6 {
 .about .section-header h2:after {
   top: -40px;
 }
+.about .section{
+ background:url(../../images/index/bg.png);
+}
 
 /*======== Event Schedule css start here  =========*/
 .event-schedule-section {
-  background: url(../../images/index-14/event/01.png);
+  background: url(../../images/index/bg.png);
   background-size: cover;
 }
 .event-schedule-section .event-schedule-trigger .title {
@@ -497,6 +500,10 @@ h6 {
 
 /*======== Event Schedule css end here  =========*/
 /*======== Speaker item start here =========*/
+.speakers-section-14 {
+  background: url(../../images/index/bg.png);
+  background-size: cover;
+}
 .speaker-item .speaker-inner {
   align-items: flex-end;
   column-gap: 30px;
@@ -678,6 +685,10 @@ h6 {
 
 /*======== Gift Sectin end here =========*/
 /*======== News section start here =========*/
+.news-section{
+  background: url(../../images/index/bg.png);
+  background-size: cover;
+}
 .news-item .news-inner {
   box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.1);
   border-radius: 4px;
