@@ -2202,7 +2202,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     width: 23%;
     text-align: center;
     color: #65ac4c;
-    background-color: #fff;
+    background-color: #f03434;
     display: inline-block;
     float: left;
     font-size: 26px;
@@ -2223,7 +2223,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .speakers .speaker-item .speaker-content .details h4 a {
-    color: #fff;
+    color: #a50f0f;
     text-decoration: none;
 }
 
@@ -2247,7 +2247,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .speakers-two {
-    background: #fff;
+    background-image: url(../../images/backgrounds/bg-speakers-03.jpg);
 }
 
 .speakers-two .section-header h3 {
@@ -2395,7 +2395,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .speakers-six {
-    background-image: url(../../images/backgrounds/bg-speakers-06.jpg);
+    background-image: url(../../images/backgrounds/bg-speakers.jpg);
 }
 
 .speakers-six .speaker-image {
@@ -2420,7 +2420,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: #e84b3a;
+    background-color: black;
     opacity: .9;
 }
 
@@ -2431,7 +2431,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     transform: translateY(-50%);
 }
 
-.speakers-six .speaker-content h4 a {
+.speakers-six .speaker-content h4  {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
@@ -3791,11 +3791,11 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .sponsor-two .sponsor-item h5 {
-    color: #000000;
+    color: #cc2323;
 }
 
 .sponsor-three {
-    background: #1b2431;
+    background: #cad0da;
 }
 
 .sponsor-three .section-header p {
