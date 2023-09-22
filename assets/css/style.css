@@ -619,22 +619,22 @@ input[type="submit"][disabled]:focus {
 
 .overlay.home-six-overlay {
     /* fallback */
-    background-color: rgba(240, 36, 25, .7);
+    background-color: rgba(73, 73, 73, 0.7);
 
     /* Safari 4-5, Chrome 1-9 */
-    background: -webkit-gradient(linear, left top, right top, from(rgba(240, 36, 25, .7)), to(rgba(248, 214, 21, .7)));
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(34, 34, 34, 0.7)));
 
     /* Safari 5.1, Chrome 10+ */
-    background: -webkit-linear-gradient(left, rgba(248, 214, 21, .7), rgba(240, 36, 25, .7));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.7), rgba(34, 34, 34, 0.7));
 
     /* Firefox 3.6+ */
-    background: -moz-linear-gradient(left, rgba(248, 214, 21, .7), rgba(240, 36, 25, .7));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.7), rgba(34, 34, 34, 0.7));
 
     /* IE 10 */
-    background: -ms-linear-gradient(left, rgba(248, 214, 21, .7), rgba(240, 36, 25, .7));
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.7), rgba(34, 34, 34, 0.7));
 
     /* Opera 11.10+ */
-    background: -o-linear-gradient(left, rgba(248, 214, 21, .7), rgba(240, 36, 25, .7));
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0.7), rgba(34, 34, 34, 0.7));
 }
 
 .section-header h3 {
