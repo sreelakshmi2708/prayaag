@@ -2231,6 +2231,11 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     color: #fff;
     text-decoration: none;
 }
+.speakers .speakers-item .speakers-content {
+    text-align: center;
+    opacity: 0.8;
+    background-image: url(../../images/codexteam/bg_codexteam_details.png);
+}
 
 .speakers .speaker-item .speaker-content .details h4 a:hover,
 .speakers .speaker-item .speaker-content .details h4 a:focus {
