@@ -2201,8 +2201,14 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 .speakers .speaker-item .speaker-content {
     width: 100%;
     float: left;
+<<<<<<< Updated upstream
     background-image: url(../../images/codexteam/bg_codexteam_details.png);
     opacity: 0.6;
+=======
+    background-color: #fff;
+    /*background-image: url(../../images/codexteam/bg_codexteam_details.png);*/
+    opacity: 0.8;
+>>>>>>> Stashed changes
     padding: 15px 15px 7px;
     -webkit-transition: .25s;
     -moz-transition: .25s;
