@@ -2171,7 +2171,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 /*  05  - Speakers
 ----------------------------------------------*/
 .speakers {
-    background-image: url(../../images/backgrounds/bg-speakers.jpg);
+    background-color: #000;
     background-size: cover;
     background-position: 50% 50%;
     overflow: hidden;
@@ -2215,7 +2215,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 .speakers .speaker-item .speaker-content .details {
     width: 100%;
     float: left;
-    background-color: #65ac4c;
+    background-image: url(../../images/codexteam/bg_codexteam_details.png);
     padding: 15px 15px 7px;
     -webkit-transition: .25s;
     -moz-transition: .25s;
