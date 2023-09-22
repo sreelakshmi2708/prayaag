@@ -2207,12 +2207,14 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     -webkit-transition: .25s;
     -moz-transition: .25s;
     transition: .25s;
+    text-align: center;
 }
 
 .speakers .speaker-item .speaker-content h4{
     color: #f3eeee;
     text-decoration: none;
 }
+
 
 .speakers .speaker-item .speaker-content h4 a:hover,
 .speakers .speaker-item .speaker-content h4 a:focus {
