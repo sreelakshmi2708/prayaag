@@ -2202,17 +2202,19 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     width: 100%;
     float: left;
     background-image: url(../../images/codexteam/bg_codexteam_details.png);
-    opacity: 0.8;
+    opacity: 0.6;
     padding: 15px 15px 7px;
     -webkit-transition: .25s;
     -moz-transition: .25s;
     transition: .25s;
+    text-align: center;
 }
 
 .speakers .speaker-item .speaker-content h4{
-    color: #a50f0f;
+    color: #f3eeee;
     text-decoration: none;
 }
+
 
 .speakers .speaker-item .speaker-content h4 a:hover,
 .speakers .speaker-item .speaker-content h4 a:focus {
