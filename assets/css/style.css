@@ -1045,7 +1045,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 /*  03  - Banner
 ----------------------------------------------*/
 .banner {
-    /*background-image: url(../../images/backgrounds/bg-banner.jpg);*/
+    background-image: url(../../images/backgrounds/proshow.jpg);
     background-position: 50% 50%;
     background-size: cover;
     height: 975px;
@@ -1059,7 +1059,8 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(178, 12, 12, 0.2);
+    background-image: url(../../images/backgrounds/proshow.webp);
 }
 
 .banner .banner-content {
