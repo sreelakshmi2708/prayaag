@@ -27,7 +27,7 @@
 /*
   1.0 - Normalize
  */
-html {
+ html {
     font-family: 'Poppins', sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -1045,7 +1045,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 /*  03  - Banner
 ----------------------------------------------*/
 .banner {
-    /*background-image: url(../../images/backgrounds/bg-banner.jpg);*/
+    background-image: url(../../images/backgrounds/bg-banner.jpg);
     background-position: 50% 50%;
     background-size: cover;
     height: 975px;
@@ -1059,7 +1059,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, .2);
 }
 
 .banner .banner-content {
@@ -1181,7 +1181,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .banner .content-right .clock-item:nth-child(2) span {
-    background-color: #e53535;
+    background-color: #92278f;
 }
 
 .banner .content-right .clock-item:nth-child(3) span {
@@ -1243,7 +1243,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .banner-two .banner-content .clock-item:nth-child(2) {
-    color: #359227;
+    color: #92278f;
 }
 
 .banner-two .banner-content .clock-item:nth-child(3) {
@@ -1425,7 +1425,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .banner-five {
-    height: 900px;
+    height: 500px;
 }
 
 .banner-five .content p {
@@ -2171,7 +2171,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 /*  05  - Speakers
 ----------------------------------------------*/
 .speakers {
-    background-color: #000;
+    background-image: url(../../images/backgrounds/bg-speakers.jpg);
     background-size: cover;
     background-position: 50% 50%;
     overflow: hidden;
@@ -2198,59 +2198,82 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     width: 100%;
 }
 
-.speakers .speaker-item .speaker-content {
-    width: 100%;
+.speakers .speaker-item .speaker-content .icon {
+    width: 23%;
+    text-align: center;
+    color: #65ac4c;
+    background-color: #fff;
+    display: inline-block;
     float: left;
-<<<<<<< Updated upstream
     background-image: url(../../images/codexteam/bg_codexteam_details.png);
     opacity: 0.6;
-=======
     background-color: #fff;
     /*background-image: url(../../images/codexteam/bg_codexteam_details.png);*/
     opacity: 0.8;
->>>>>>> Stashed changes
+    font-size: 26px;
+    line-height: 70px;
+    -webkit-transition: .25s;
+    -moz-transition: .25s;
+    transition: .25s;
+}
+
+.speakers .speaker-item .speaker-content .details {
+    width: 77%;
+    float: left;
+    background-color: #65ac4c;
     padding: 15px 15px 7px;
     -webkit-transition: .25s;
     -moz-transition: .25s;
     transition: .25s;
-    text-align: center;
 }
 
-.speakers .speaker-item .speaker-content h4{
-    color: #f3eeee;
-    text-decoration: none;
-}
-
-
-.speakers .speaker-item .speaker-content h4 a:hover,
-.speakers .speaker-item .speaker-content h4 a:focus {
+.speakers .speaker-item .speaker-content .details h4 a {
     color: #fff;
     text-decoration: none;
 }
 
-.speakers .speaker-item .speaker-content span {
+.speakers .speaker-item .speaker-content .details h4 a:hover,
+.speakers .speaker-item .speaker-content .details h4 a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.speakers .speaker-item .speaker-content .details span {
     font-size: 16px;
     color: #fff;
 }
 
-.speakers .speaker-item:hover {
+.speakers .speaker-item:hover .details {
     background-color: #ff9822;
 }
 
+.speakers .speaker-item:hover .icon {
+    color: #ff9822;
+}
+
 .speakers-two {
-    background-color: #000;
+    background: #fff;
 }
 
 .speakers-two .section-header h3 {
-    color: #e4e5e5;
+    color: #000000;
 }
 
 .speakers-two .section-header p {
-    color: #e4d5d5;
+    color: #696969;
 }
 .speakers-two .speaker-content {
     overflow: hidden;
-    background: #7e8d78;
+    background: #65ac4c;
+}
+
+.speakers-two .speaker-item .speaker-content .icon {
+    background-color: #589e3f;
+    color: #fff;
+}
+
+.speakers-two .speaker-item:hover .speaker-content .icon {
+    background-color: #fc8804;
 }
 
 .speakers-three {
@@ -2377,7 +2400,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .speakers-six {
-    background-image: url(../../images/backgrounds/bg-speakers.jpg);
+    background-image: url(../../images/backgrounds/bg-speakers-06.jpg);
 }
 
 .speakers-six .speaker-image {
@@ -2402,7 +2425,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: #e84b3a;
     opacity: .9;
 }
 
@@ -2413,7 +2436,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     transform: translateY(-50%);
 }
 
-.speakers-six .speaker-content h4  {
+.speakers-six .speaker-content h4 a {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
@@ -3108,7 +3131,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .schedules-five .tab-content table th {
-    //background-color: #92278f;
+    background-color: #92278f;
 }
 
 .schedules-five .tab-content table td:hover {
@@ -3773,11 +3796,11 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .sponsor-two .sponsor-item h5 {
-    color: #cc2323;
+    color: #000000;
 }
 
 .sponsor-three {
-    background: #cad0da;
+    background: #1b2431;
 }
 
 .sponsor-three .section-header p {
@@ -7253,7 +7276,7 @@ header.header-seven .header-cart-ticket-option {
 
 /*--------------coming soon page  --------------*/
 .comming-soon {
-    background-image: url(../../images/index/bg-banner-02.png);
+    background-image: url(../../images/coming-bg.jpg);
     height: 974px;
     position: relative;
     background-repeat: no-repeat;
@@ -7485,10 +7508,6 @@ header.header-seven .header-cart-ticket-option {
 }
 
 .dark-layout .about-thumb img {
-    max-width: 100%;
-}
-
-.dark-layout .about-thumb video {
     max-width: 100%;
 }
 
@@ -9316,108 +9335,3 @@ header .header-six.header-seven .main-menu.menu-eight.menu-fixed.animated.fadeIn
 .box-layout {
     overflow: hidden;
 }
-
-@property --rotate {
-    syntax: "<angle>";
-    initial-value: 132deg;
-    inherits: false;
-  }
-  
-  :root {
-    --card-height: 300px;
-    --card-width: 300px;
-  }
-  
-  
-  .body {
-    min-height: 100vh;
-    background: #212534;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    box-sizing: border-box;
-  }
-  
-  
-  .carde {
-    background: #191c29;
-    width: var(--card-width);
-    height: var(--card-height);
-    padding: 3px;
-    position: relative;
-    border-radius: 6px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    font-size: 1.5em;
-    color: rgb(88 199 250 / 0%);
-    cursor: pointer;
-    font-family: cursive;
-    margin: 5px;
-  }
-  
-  .carde:hover {
-    color: rgb(88 199 250 / 100%);
-    transition: color 1s;
-  }
-  .carde:hover:before, .carde:hover:after {
-    animation: none;
-    opacity: 0;
-  }
-  
-  
-  .carde::before {
-    content: "";
-    width: 104%;
-    height: 102%;
-    border-radius: 8px;
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-      position: absolute;
-      z-index: -1;
-      top: -1%;
-      left: -2%;
-      animation: spin 2.5s linear infinite;
-  }
-  
-  .carde::after {
-    position: absolute;
-    content: "";
-    top: calc(var(--card-height) / 6);
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    transform: scale(0.8);
-    filter: blur(calc(var(--card-height) / 6));
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-      opacity: 1;
-    transition: opacity .5s;
-    animation: spin 2.5s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100% {
-      --rotate: 360deg;
-    }
-  }
-  
-  a {
-    color: #212534;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-top: 2rem;
-  }
-
