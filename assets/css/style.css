@@ -2231,11 +2231,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     color: #fff;
     text-decoration: none;
 }
-.speakers .speakers-item .speakers-content {
-    text-align: center;
-    opacity: 1;
-    background-image: url(../../images/codexteam/bd-codexteam1.jpeg);
-}
+
 
 .speakers .speaker-item .speaker-content .details h4 a:hover,
 .speakers .speaker-item .speaker-content .details h4 a:focus {
@@ -2243,6 +2239,9 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     text-decoration: none;
 }
 
+.speakers .speakers-item .speakers-content {
+    background-image: url(../../images/codexteam/bd-codexteam1.jpeg);
+}
 .speakers .speaker-item .speaker-content .details span {
     font-size: 16px;
     color: #fff;
