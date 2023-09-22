@@ -15,7 +15,7 @@ body.home-fashion .swiper-pagination-bullet {
     height: 16px;
 }
 header {}
-header.style-2 {
+header .style-2 {
     margin-top: 90px;
 }
 .bgc-trans {
@@ -438,8 +438,14 @@ header.style-3 .menu-item-has-children>a::after {
     padding: 13px 0;
     min-height: 90px;
 }
-.menu-fixed.bgc-1 {
-    background: #65ac4c;
+.menu-fixed.bgc-codex {
+    background: #2A1B3D;
+}
+.menu-fixed.bgc-vistara {
+    background: #000;
+}
+.menu-fixed.bgc-caryatid {
+    background: #4e00c2;
 }
 .navbar-collapse {
     height: auto !important;

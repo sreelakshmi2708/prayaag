@@ -27,7 +27,7 @@
 /*
   1.0 - Normalize
  */
-html {
+ html {
     font-family: 'Poppins', sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -1045,7 +1045,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 /*  03  - Banner
 ----------------------------------------------*/
 .banner {
-    /*background-image: url(../../images/backgrounds/bg-banner.jpg);*/
+    background-image: url(../../images/backgrounds/bg-banner.jpg);
     background-position: 50% 50%;
     background-size: cover;
     height: 975px;
@@ -1059,7 +1059,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, .2);
 }
 
 .banner .banner-content {
@@ -1181,7 +1181,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .banner .content-right .clock-item:nth-child(2) span {
-    background-color: #e53535;
+    background-color: #92278f;
 }
 
 .banner .content-right .clock-item:nth-child(3) span {
@@ -1243,7 +1243,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .banner-two .banner-content .clock-item:nth-child(2) {
-    color: #359227;
+    color: #92278f;
 }
 
 .banner-two .banner-content .clock-item:nth-child(3) {
@@ -2205,6 +2205,11 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     background-color: #fff;
     display: inline-block;
     float: left;
+    background-image: url(../../images/codexteam/bg_codexteam_details.png);
+    opacity: 0.6;
+    background-color: #fff;
+    /*background-image: url(../../images/codexteam/bg_codexteam_details.png);*/
+    opacity: 0.8;
     font-size: 26px;
     line-height: 70px;
     -webkit-transition: .25s;
@@ -3126,7 +3131,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 
 .schedules-five .tab-content table th {
-    //background-color: #92278f;
+    background-color: #92278f;
 }
 
 .schedules-five .tab-content table td:hover {
@@ -7271,7 +7276,7 @@ header.header-seven .header-cart-ticket-option {
 
 /*--------------coming soon page  --------------*/
 .comming-soon {
-    background-image: url(../../images/index/bg-banner-02.png);
+    background-image: url(../../images/coming-bg.jpg);
     height: 974px;
     position: relative;
     background-repeat: no-repeat;
@@ -9330,107 +9335,3 @@ header .header-six.header-seven .main-menu.menu-eight.menu-fixed.animated.fadeIn
 .box-layout {
     overflow: hidden;
 }
-
-@property --rotate {
-    syntax: "<angle>";
-    initial-value: 132deg;
-    inherits: false;
-  }
-  
-  :root {
-    --card-height: 300px;
-    --card-width: 300px;
-  }
-  
-  
-  .body {
-    min-height: 100vh;
-    background: #212534;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    box-sizing: border-box;
-  }
-  
-  
-  .carde {
-    background: #191c29;
-    width: var(--card-width);
-    height: var(--card-height);
-    padding: 3px;
-    position: relative;
-    border-radius: 6px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    font-size: 1.5em;
-    color: rgb(88 199 250 / 0%);
-    cursor: pointer;
-    font-family: cursive;
-    margin: 5px;
-  }
-  
-  .carde:hover {
-    color: rgb(88 199 250 / 100%);
-    transition: color 1s;
-  }
-  .carde:hover:before, .carde:hover:after {
-    animation: none;
-    opacity: 0;
-  }
-  
-  
-  .carde::before {
-    content: "";
-    width: 104%;
-    height: 102%;
-    border-radius: 8px;
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-      position: absolute;
-      z-index: -1;
-      top: -1%;
-      left: -2%;
-      animation: spin 2.5s linear infinite;
-  }
-  
-  .carde::after {
-    position: absolute;
-    content: "";
-    top: calc(var(--card-height) / 6);
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    transform: scale(0.8);
-    filter: blur(calc(var(--card-height) / 6));
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-      opacity: 1;
-    transition: opacity .5s;
-    animation: spin 2.5s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100% {
-      --rotate: 360deg;
-    }
-  }
-  
-  a {
-    color: #212534;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-top: 2rem;
-  }
