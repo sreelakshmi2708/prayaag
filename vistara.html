@@ -86,6 +86,125 @@
     		text-align: center;
     		opacity: 1;
 		}
+
+		.schedules .nav-tabs li:last-child a:hover,
+		.schedules .nav-tabs li:last-child a:focus {
+    		border-right: 1px solid #2a1b3d;
+		}
+
+		.schedules .nav-tabs li:last-child.active a {
+    		border-right: 1px solid #44318d;
+		}
+		.schedules .nav-tabs li a:hover,
+		.schedules .nav-tabs li a:focus {
+	    	border: 1px solid #44318d;
+		    border-right: none;
+    		background-color: #44318d;
+    		color: #fff;
+    		margin: 0;
+		}
+
+		.schedules .nav-tabs li a {
+		    border: 1px solid #f0f0f0;
+    		border-right: none;
+    		border-radius: 0;
+		    margin: 0px;
+    		font-size: 24px;
+	    	font-weight: 700;
+    		text-transform: uppercase;
+		    color: #44318d;
+		    padding: 6px 30px;
+    		display: inline-block;
+		}
+
+		.schedules .nav-tabs li a.active {
+    		border: 1px solid #44318d;
+    		border-right: none;
+    		background-color: #44318d;
+    		color: #fff;
+    		margin: 0;
+		}
+
+		.schedules .nav-tabs h4 {
+	    font-size: 24px;
+    	color: #44318d;
+		}
+
+		.schedules .tab-content table th {
+    		border: none;
+		    font-size: 16px;
+    		line-height: 1;
+		    font-weight: 700;
+	    	text-transform: uppercase;
+    		color: #fff;
+		    background-color: #2a1b3d;
+    		padding: 27px 30px;
+		}
+
+		.schedules .tab-content table td:hover {
+		    color: #44318d;
+		}
+
+		.schedules .tab-content .schedule-button {
+    		background-color: #2a1b3d;
+    		padding: 14px 37px;
+		}
+
+		.schedules .tab-content .schedule-button:hover {
+    		background-color: #44318d;
+		}
+		.schedules-two .nav-tabs li a:before {
+    		content: "";
+	    	position: absolute;
+	    	right: 0;
+    		top: 50%;
+		    -webkit-transform: translateY(-50%) rotate(45deg);
+		    transform: translateY(-50%) rotate(45deg);
+		    height: 15px;
+	    	width: 15px;
+    		background-color: #44318d;
+		    opacity: 0;
+		}
+
+		.schedules-two .nav-tabs li a:hover,
+		.schedules-two .nav-tabs li a:focus {
+		    background-color: #44318d;
+		}
+
+		.schedules-two .tab-content table tbody tr:hover {
+		    box-shadow: none;
+		    background-color: #44318d;
+		}
+
+		.schedules-three .nav-tabs li a:before {
+    		content: "";
+    		position: absolute;
+ 			bottom: 0px;
+		    left: 50%;
+		    height: 16px;
+		    width: 16px;
+		    background-color: #44318d;
+		    -webkit-transform: translateX(-50%) rotate(45deg);
+		    transform: translateX(-50%) rotate(45deg);
+		    opacity: 0;
+		}
+
+		.schedules-three .tab-content table td:first-child:before {
+		    content: "";
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    height: 100%;
+		    width: 4px;
+		    background-color: #44318d;
+		    opacity: 0;
+		    -webkit-transition: .3s;
+		    transition: .3s;
+		}
+		.schedules-three .tab-content table tbody tr:hover {
+		    background-color: #313d4f;
+		    border-left: 4px solid #44318d;
+		}
 	</style>
 
 </head>
