@@ -2171,7 +2171,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 /*  05  - Speakers
 ----------------------------------------------*/
 .speakers {
-    background-image: url(../../images/backgrounds/bg-speakers.jpg);
+    background-image: url(../../images/codexteam/bg_codexteam.jpeg);
     background-size: cover;
     background-position: 50% 50%;
     overflow: hidden;
@@ -2198,77 +2198,51 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     width: 100%;
 }
 
-.speakers .speaker-item .speaker-content .icon {
-    width: 23%;
-    text-align: center;
-    color: #65ac4c;
-    background-color: #f03434;
-    display: inline-block;
+.speakers .speaker-item .speaker-content {
+    width: 100%;
     float: left;
-    font-size: 26px;
-    line-height: 70px;
-    -webkit-transition: .25s;
-    -moz-transition: .25s;
-    transition: .25s;
-}
-
-.speakers .speaker-item .speaker-content .details {
-    width: 77%;
-    float: left;
-    background-color: #65ac4c;
+    background-image: url(../../images/codexteam/bg_codexteam_details.png);
+    opacity: 0.6;
     padding: 15px 15px 7px;
     -webkit-transition: .25s;
     -moz-transition: .25s;
     transition: .25s;
 }
 
-.speakers .speaker-item .speaker-content .details h4 a {
-    color: #a50f0f;
+.speakers .speaker-item .speaker-content h4{
+    color: #f3eeee;
     text-decoration: none;
 }
 
-.speakers .speaker-item .speaker-content .details h4 a:hover,
-.speakers .speaker-item .speaker-content .details h4 a:focus {
+.speakers .speaker-item .speaker-content h4 a:hover,
+.speakers .speaker-item .speaker-content h4 a:focus {
     color: #fff;
     text-decoration: none;
 }
 
-.speakers .speaker-item .speaker-content .details span {
+.speakers .speaker-item .speaker-content span {
     font-size: 16px;
     color: #fff;
 }
 
-.speakers .speaker-item:hover .details {
+.speakers .speaker-item:hover {
     background-color: #ff9822;
 }
 
-.speakers .speaker-item:hover .icon {
-    color: #ff9822;
-}
-
 .speakers-two {
-    background-image: url(../../images/backgrounds/bg-speakers-03.jpg);
+    background-image: url(../../images/codexteam/bg_codexteam.jpeg);
 }
 
 .speakers-two .section-header h3 {
-    color: #000000;
+    color: #e4e5e5;
 }
 
 .speakers-two .section-header p {
-    color: #696969;
+    color: #e4d5d5;
 }
 .speakers-two .speaker-content {
     overflow: hidden;
-    background: #65ac4c;
-}
-
-.speakers-two .speaker-item .speaker-content .icon {
-    background-color: #589e3f;
-    color: #fff;
-}
-
-.speakers-two .speaker-item:hover .speaker-content .icon {
-    background-color: #fc8804;
+    background: #7e8d78;
 }
 
 .speakers-three {
@@ -7503,6 +7477,10 @@ header.header-seven .header-cart-ticket-option {
 }
 
 .dark-layout .about-thumb img {
+    max-width: 100%;
+}
+
+.dark-layout .about-thumb video {
     max-width: 100%;
 }
 
