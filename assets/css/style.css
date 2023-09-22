@@ -7480,6 +7480,10 @@ header.header-seven .header-cart-ticket-option {
     max-width: 100%;
 }
 
+.dark-layout .about-thumb video {
+    max-width: 100%;
+}
+
 .dark-layout .play {
     width: 115px;
     height: 115px;
