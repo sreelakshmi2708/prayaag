@@ -2233,8 +2233,8 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 }
 .speakers .speakers-item .speakers-content {
     text-align: center;
-    opacity: 0.8;
-    background-image: url(../../images/codexteam/bg_codexteam_details.png);
+    opacity: 1;
+    background-image: url(../../images/codexteam/bd-codexteam1.jpeg);
 }
 
 .speakers .speaker-item .speaker-content .details h4 a:hover,
