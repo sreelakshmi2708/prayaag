@@ -1454,6 +1454,9 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     -moz-transform: translateY(50%);
     transform: translateY(50%);
 }
+.banner-five {
+    background-image: url(../../images/backgrounds/black.jpg);
+}
 
 .banner-six {
     background-image: url(../../images/backgrounds/bg-banner-06.jpg);
@@ -5828,6 +5831,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     font-weight: 400;
     float: left;
 }
+
 
 .shop-cart table tr .coupon input:last-child {
     background-color: #65ac4c;
