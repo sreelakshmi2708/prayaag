@@ -18,6 +18,9 @@
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Include Typed.js from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ 
     <!-- Font-Awesome -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
@@ -110,9 +113,11 @@
 
 
         <!-- banner start here-->
-        <section class="banner banner-six">
+        <section class="banner banner-ten">
             <div class="banner-overlay"></div>
             <!-- overlay -->
+            <div class="typed-text">
+                <span id="typed-output"></span>
             
             </div>
             <!-- content-right -->
@@ -167,15 +172,7 @@
 
         
 
-
-        
-
-
-
-       
-
-
-    </div>
+</div>
     <!-- jQuery -->
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="assets/js/jquery-migrate-1.4.1.min.js"></script>
@@ -227,6 +224,20 @@
 
     <!-- Custom -->
     <script src="assets/js/custom.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var options = {
+                strings: ["Technology is best when it brings people together", "𝐏𝐑𝐀𝐘𝐀𝐀𝐆 3.0  present to you, 𝐓𝐞𝐜𝐡𝐄𝐱𝐩𝐨"],
+                typeSpeed: 50, // typing speed in milliseconds
+                backSpeed: 50, // backspacing speed in milliseconds
+                loop: true, // loop the animation
+            };
+    
+            var typed = new Typed("#typed-output", options);
+        });
+    </script>
+    
 
     <script type="text/javascript">
         //Home Page map

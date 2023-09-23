@@ -1180,6 +1180,21 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     background-color: #65ac4c;
 }
 
+.banner-ten
+{
+    background-image:url(../../images/venue/expo.jpeg);
+}
+
+.typed-text {
+    position: absolute;
+    top: 50%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, -50%);
+    color: #fff; /* Text color */
+    font-size: 24px;
+}
+
+
 .banner .content-right .clock-item:nth-child(2) span {
     background-color: #92278f;
 }
