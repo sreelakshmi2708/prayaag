@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>BigEvent</title>
+	<title>Caryatid</title>
 
 
 	<!-- Google Fonts -->
@@ -58,10 +58,148 @@
 			}
 		}
 
-		.speakers .speaker-item .speaker-content {
-			text-align: center;
+		.speaker-two {
+    		background: #000000;
+		}
+
+		.speakers .speakers-item .speakers-content h4  {
+    		color: #fff;
+    		text-decoration: none;
+		}
+
+		.speakers .speakers-item .speakers-content span {
+    		font-size: 16px;
+    		color: #fff;
+		}
+
+		.speakers .speakers-item {
+    		overflow: hidden;
+    		margin-bottom: 50px;
+		}
+
+		.speakers-six .speaker-content{
+			background-color: #44318D;
+			color: #fff;
 		}
 		
+		.schedules .nav-tabs li:last-child a:hover,
+		.schedules .nav-tabs li:last-child a:focus {
+    		border-right: 1px solid #2a1b3d;
+		}
+
+		.schedules .nav-tabs li:last-child.active a {
+    		border-right: 1px solid #44318d;
+		}
+		.schedules .nav-tabs li a:hover,
+		.schedules .nav-tabs li a:focus {
+	    	border: 1px solid #44318d;
+		    border-right: none;
+    		background-color: #44318d;
+    		color: #fff;
+    		margin: 0;
+		}
+
+		.schedules .nav-tabs li a {
+		    border: 1px solid #f0f0f0;
+    		border-right: none;
+    		border-radius: 0;
+		    margin: 0px;
+    		font-size: 24px;
+	    	font-weight: 700;
+    		text-transform: uppercase;
+		    color: #44318d;
+		    padding: 6px 30px;
+    		display: inline-block;
+		}
+
+		.schedules .nav-tabs li a.active {
+    		border: 1px solid #44318d;
+    		border-right: none;
+    		background-color: #44318d;
+    		color: #fff;
+    		margin: 0;
+		}
+
+		.schedules .nav-tabs h4 {
+	    font-size: 24px;
+    	color: #44318d;
+		}
+
+		.schedules .tab-content table th {
+    		border: none;
+		    font-size: 16px;
+    		line-height: 1;
+		    font-weight: 700;
+	    	text-transform: uppercase;
+    		color: #fff;
+		    background-color: #2a1b3d;
+    		padding: 27px 30px;
+		}
+
+		.schedules .tab-content table td:hover {
+		    color: #44318d;
+		}
+
+		.schedules .tab-content .schedule-button {
+    		background-color: #2a1b3d;
+    		padding: 14px 37px;
+		}
+
+		.schedules .tab-content .schedule-button:hover {
+    		background-color: #44318d;
+		}
+		.schedules-two .nav-tabs li a:before {
+    		content: "";
+	    	position: absolute;
+	    	right: 0;
+    		top: 50%;
+		    -webkit-transform: translateY(-50%) rotate(45deg);
+		    transform: translateY(-50%) rotate(45deg);
+		    height: 15px;
+	    	width: 15px;
+    		background-color: #44318d;
+		    opacity: 0;
+		}
+
+		.schedules-two .nav-tabs li a:hover,
+		.schedules-two .nav-tabs li a:focus {
+		    background-color: #44318d;
+		}
+
+		.schedules-two .tab-content table tbody tr:hover {
+		    box-shadow: none;
+		    background-color: #44318d;
+		}
+
+		.schedules-three .nav-tabs li a:before {
+    		content: "";
+    		position: absolute;
+ 			bottom: 0px;
+		    left: 50%;
+		    height: 16px;
+		    width: 16px;
+		    background-color: #44318d;
+		    -webkit-transform: translateX(-50%) rotate(45deg);
+		    transform: translateX(-50%) rotate(45deg);
+		    opacity: 0;
+		}
+
+		.schedules-three .tab-content table td:first-child:before {
+		    content: "";
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    height: 100%;
+		    width: 4px;
+		    background-color: #44318d;
+		    opacity: 0;
+		    -webkit-transition: .3s;
+		    transition: .3s;
+		}
+		.schedules-three .tab-content table tbody tr:hover {
+		    background-color: #313d4f;
+		    border-left: 4px solid #44318d;
+		}
 	</style>
 
 </head>
@@ -71,11 +209,11 @@
 
 	<div class="box-layout">
 		<!-- header start here-->
-		<header class="style-2">
-			<div class="menu-fixed bgc-1 bgc-caryatid">
+		<header>
+			<div class="menu-fixed bgc-trans-5">
 				<nav class="navbar navbar-expand-lg">
 					<div class="container">
-						<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"
+						<a class="navbar-brand" href="index.html"><img src="images/index/Caryatid.jpeg (1).jpg" style="height: 60px;width: 60px;" alt="logo"
 								class="img-responsive"></a>
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -87,76 +225,19 @@
 								<div class="menu-left">
 									<ul>
 										<li>
-											<a href="#">Home</a>
-											<ul class="scrollbar" id="style-scroll-v3">
-												<li><a href="index.html">Homepage Style One</a></li>
-												<li><a href="index-2.html">Homepage Style Two</a></li>
-												<li><a href="index-3.html">Homepage Style Three</a></li>
-												<li><a href="index-4.html">Homepage Style Four</a></li>
-												<li><a href="index-5.html">Homepage Style Five</a></li>
-												<li><a href="index-6.html">Homepage Style Six</a></li>
-												<li><a href="index-7.html">Homepage Style Seven</a></li>
-												<li><a href="index-8.html">Homepage Style Eight</a></li>
-												<li><a href="index-9.html">Homepage Style Nine</a></li>
-												<li><a href="index-10.html">Homepage Style Ten</a></li>
-												<li><a href="index-11.html">Homepage Style Eleven</a></li>
-												<li><a href="index-12.html">Homepage Style Twelve</a></li>
-												<li><a href="index-13.html">Homepage Style Thirteen</a></li>
-                                                <li><a href="index-14.html">Homepage Style Fourteen</a></li>
-												<li><a href="index-dark.html">Dark Homepage</a></li>
-												<li><a href="index-reunion.html">Reunion</a></li>
-												<li><a href="index-newyear.html">Newyear</a></li>
-												<li><a href="onepage.html">OnePage</a></li>
-												<li><a href="box-layout.html">Home Box Layout</a></li>
-												<li><a href="index-fashion.html">Fashion</a></li>
-												<li><a href="http://demos.codexcoder.com/labartisan/html/BigEvent-rtl/">
-														الصفحة الرئيسية رتل</a></li>
+											<a href="index.html">Home</a>
+										</li>
+										
+										<li>
+											<a href="#">Events</a>
+											<ul>
+												<li><a href="caryatid.html">Caryatid</a></li>
+												<li><a href="codex.html">Codex</a></li>
+												<li><a href="vistara.html">Vistara</a></li>
 											</ul>
 										</li>
 										<li>
-											<a href="#">About</a>
-											<ul>
-												<li><a href="about.html">About Style One</a></li>
-												<li><a href="about-2.html">About Style Two</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Speakers</a>
-											<ul>
-												<li><a href="speakers.html">Speakers</a></li>
-												<li><a href="speaker-details.html">Speaker Details</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Event></a>
-											<ul>
-												<li><a href="becodem-sponsor.html">Become Sponsoor</a></li>
-												<li><a href="event-sponsor.html">Event Sponsor</a></li>
-												<li><a href="event.gallery.html">Gallery</a></li>
-												<li><a href="event-gallery-massonry.html">Gallery Massonry</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Pages</a>
-											<ul>
-												<li><a href="blog.html">Blog Page</a></li>
-												<li><a href="single.html">Blog Single</a></li>
-												<li><a href="ticket.html">Pricing Table</a></li>
-												<li><a href="schedule.html" class="active">Schedule</a></li>
-												<li><a href="faq.html">faq</a></li>
-												<li><a href="testimonial.html">Testimonial</a></li>
-												<li><a href="venue.html">venue</a></li>
-												<li><a href="coming-soon.html">coming soon</a></li>
-												<li><a href="contact.html">Contact</a></li>
-												<li><a href="404.html">404 Error</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Shop</a>
-											<ul>
-												<li><a href="product.html">Prodect Page</a></li>
-												<li><a href="product-details.html">Product Details</a></li>
-												<li><a href="shop-cart.html">Cart Page</a></li>
-											</ul>
+											<a href="event.gallery.html">Gallery</a>
 										</li>
 									</ul>
 								</div>
@@ -169,13 +250,16 @@
 		<!-- header end here -->
 
 		<!-- banner start here-->
-		<section class="banner banner-five">
-			<video style="width: 100%;" controls>
-				<source src="images/gallery/Codex.mp4" type="video/mp4">
-				<source src="movie.ogg" type="video/ogg">
-			  Your browser does not support the video tag.
-			  </video>
-			
+		<section id="about" class=" about about-six about-eight padding-120">
+			<div class="container">
+				<div class="about-thumb">
+					<video style="width: 100%;" autoplay="True" controls>
+						<source src="images/gallery/Caryatid.mp4" type="video/mp4">
+						<source src="movie.ogg" type="video/ogg">
+					  Your browser does not support the video tag.
+					  </video>
+				</div>
+			</div><!-- container -->
 		</section>
 		<!-- banner end here -->
 		<!-- Schedules start here -->
@@ -353,7 +437,7 @@
 												<td class="time"><span><i class="fa fa-clock-o"
 															aria-hidden="true"></i></span>9:30am - 4:30 pm</td>
 												<td class="session"><span><i class="fa fa-list-alt"
-															aria-hidden="true"></i></span>WORKSHOP ON PLAXIS</td>
+															aria-hidden="true"></i></span>GEOSCULPT PLAXIS SOFTWARE 2D AND 3D</td>
 												<td class="venue"><span><i class="fa fa-home"
 															aria-hidden="true"></i></span>CAD LAB</td>
 											</tr>
@@ -387,34 +471,255 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</sectiong>
 
 		
 		
 
 		<!-- event-start -->
-		<div class="row">
-			<div class="col col-md-6 col-xs-12">
-				<div class="carde" style="margin-top: 4px; margin-left:7px; align-items: center; margin-bottom: 5px;">
-					Magic Card
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-xs-12">
-				<div class="carde" style="margin-top: 4px; margin-left:7px; align-items: center; margin-bottom: 5px;">
-					Magic Card
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-xs-12">
-				<div class="carde" style="margin-top: 4px; margin-left:7px; align-items: center; margin-bottom: 5px;">
-					Magic Card
-				</div>
-			</div>
-		</div>
+		<section class="speakers speakers-six">
+			<div class="overlay home-six-overlay">
+				<div class="container">
+					<div class="section-header text-center">
+						<h3>EVENTS</h3>
+						<!--<p><em>Quickly harness dynamic thinking through value added models.</em></p>-->
+					</div>
+					<div class="speaker-items">
+						<!-- Caryatid -->
+						<div class="col-lg-4 col-md-6 col-xs-12" style="display: block;margin-left: auto; margin-right: auto;">
+							<div class="speaker-item">
+								<div class="speaker-image dh-container">
+									<img src="images/events/Caryatid.jpg" alt="speaker image"
+										class="img-responsive">
+									<div class="speaker-content-bg dh-overlay">
+										<div class="speaker-content">
+											<div class="content">
+												"The only rules that matter are these: what a man can do and what a man can't do." -Captain Jack Sparrow.<br>
+												Get ready to enter the abyss of mystery – The map leading to the world of civil engineering and unleash the Captain Jack Sparrow inside you <br>
+												CARYATID '23 proudly present to you the treasure hunt “PIRATES OF CARYATID"🏴‍☠ <br>
+												Date🗓: 1st October 2023 <br>
+												Time ⏰: Starting at 10am <br>
+												Venue📍: LBS Institute of Technology for Women, Poojapura, TVM <br>
+												Registration fee: Rs 60 per head <br>
+												Prize money💸: 5k <br>
+												Register in the link given below👇🏻: <a href="https://forms.gle/T9v2j3ADnGYLEjW58">forms.gle/T9v2j3ADnGYLEjW58</a> <br>
+												Gpay no for registration – <a href="tel:8157882514">8157882514</a><br>
+												Registration closing date: 27th September 2023<br>
+												Don't miss out on this thrilling adventure! Register now🪄<br>
+												For more details and queries contact:<br>
+												Praveena. R - <a href="tel:8157882514">8157882514</a> <br>
+												Avarna L. R - <a href="tel:9778360489">9778360489</a> <br>
+												Certificates and activity points will be provided to all participants <br>
+											</div>
+										</div><!-- speaker-content -->
+									</div><!-- speaker-content-bg -->
+								</div><!-- speaker-image -->
+							</div><!-- speaker-item -->
+						</div>
+						<div class="row">
+                            <!-- Build U -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Build U.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!-- Paper Pitch -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Paper Pitch.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- Structural Snapshots -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Structural Snapshots.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- Blueprint Bootcamp -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Blueprint Bootcamp.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- Visual Verve -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Visual Verve.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- Architectural Artistry -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Architectural Artistry.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- Innovatiin Ignite -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Innovation Ignite.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- BuildNCross -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/BuildNCross.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- GEO Sculpt -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/GEO Sculpt.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- 3D Printing -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/3D Printing.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- Tech Titans -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Tech Titans.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+							<!-- Tecaco -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Tecaco.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+						</div><!-- row -->
+
+					</div><!-- speaker-items -->
+				</div><!-- container -->
+			</div><!-- overlay -->
+		</section>
 		<!-- event-end -->
 	
 
 		<!-- Speakers start here -->
-        <section class="speakers speakers-two padding-120">
+        <section class="speakers speaker-two padding-120">
             <div class="container">
                 <div class="section-header text-center">
                     <h3>MEET THE TEAM</h3>
@@ -423,13 +728,13 @@
                 <div class="speaker-items">
                     <div class="row">
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Sanjana_KL_CE_Assosication_Secretary.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Sanjana Kl</h4>
                                     <span>CE Association Secretary</span>
                                 </div>
@@ -438,13 +743,13 @@
                             <!-- speaker-item -->
                         </div>
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Anju_Carmel_Marketing_Head.png" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Anju Carmel</h4>
                                     <span>Marketing Head</span>
                                 </div>
@@ -453,13 +758,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Fairoos_Fathima_S_Sponsorship_Head.png" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Fairoos Fathima S</h4>
                                     <span>Sponsorship Head</span>
                                 </div>
@@ -468,13 +773,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Lekshmi_Priya_S_Event_head.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Lekshmi Priya S</h4>
                                     <span>Event Head</span>
                                 </div>
@@ -483,13 +788,13 @@
                             <!-- speaker-item -->
                         </div>
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Manjusree_PS_Treasurer.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Manjusree PS</h4>
                                     <span>Treasurer</span>
                                 </div>
@@ -498,13 +803,13 @@
                             <!-- speaker-item -->
                         </div>
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Swathi_Krishna__Design_Head.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Swathi Krishna</h4>
                                     <span>Design Lead</span>
                                 </div>
@@ -513,13 +818,13 @@
                             <!-- speaker-item -->
                         </div>
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Anamika_RG_Content_head.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Anamika RG</h4>
                                     <span>Content Head</span>
                                 </div>
@@ -528,13 +833,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Abhikrishna_VR_ EXPO_team.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Abhikrishna VR</h4>
                                     <span>Expo Team</span>
                                 </div>
@@ -543,13 +848,13 @@
                             <!-- speaker-item -->
                         </div>
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Aneesa_H_EXPO_team.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Aneesa H</h4>
                                     <span>Expo Team</span>
                                 </div>
@@ -558,13 +863,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Dhanika_GL_expo_team.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Dhanika GL</h4>
                                     <span>Expo Team</span>
                                 </div>
@@ -573,13 +878,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Pooja_Asok_A_EXPO_team.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Pooja Asok A</h4>
                                     <span>Expo Team</span>
                                 </div>
@@ -588,13 +893,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Ganga_Govind_P_Media_Team.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Ganga Govind P</h4>
                                     <span>Media Team</span>
                                 </div>
@@ -603,13 +908,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/RESHMI_RS_Media_Team.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Reshmi RS</h4>
                                     <span>Media Team</span>
                                 </div>
@@ -618,13 +923,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Nandana_D_4th_yr_rep.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Nandana D</h4>
                                     <span>4th Year Representative </span>
                                 </div>
@@ -633,13 +938,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Jigmet_Skidon_3rd_yr_rep.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Jigmet Skidon</h4>
                                     <span>3rd Year Representative</span>
                                 </div>
@@ -648,13 +953,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Hasna_Fathima_RS_2nd_yr_rep.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Hasna Fathima RS</h4>
                                     <span>2nd Year Representative</span>
                                 </div>
@@ -663,13 +968,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Anakha_S_Biju_1st_yr_rep.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Ankh S Biju</h4>
                                     <span>1st Year Representative</span>
                                 </div>
@@ -678,13 +983,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/carytidteam/Bhadra_V_Thampi_1st_yr_Rep.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Bhadra V Thampi</h4>
                                     <span>1st Year Representative</span>
                                 </div>
@@ -701,7 +1006,7 @@
         </section>
         <!-- Speakers end here -->
 
-		<!-- sponsor start here -->
+		<!-- sponsor start here 
 		<section id="sponsor " class="sponsor sponsor-uhv event-sponsor-page padding-120">
 			<div class="container">
 				<div class="section-header text-center">
@@ -711,7 +1016,7 @@
 
 				<div class="section-wrapper">
 
-					<!-- platinum sponsor -->
+					< !--platinum sponsor 
 					<div class="sponsor-type-item platinum-sponsor">
 						<h6 class="sponsor-type">Platinum sponsors</h6>
 						<div class="sponsor-list">
@@ -735,7 +1040,7 @@
 						</div>
 					</div>
 
-					<!-- gold sponsor -->
+					<! -- gold sponsor 
 					<div class="sponsor-type-item gold-sponsor">
 						<h6 class="sponsor-type">Gold sponsors</h6>
 						<div class="sponsor-list">
@@ -764,7 +1069,7 @@
 						</div>
 					</div>
 
-					<!-- silver sponsor -->
+					<!- - silver sponsor 
 					<div class="sponsor-type-item silver-sponsor">
 						<h6 class="sponsor-type">Silver sponsors</h6>
 						<div class="sponsor-list">
@@ -806,62 +1111,30 @@
 				</div>
 			</div>
 		</section>
-		<!-- Proshow, expo and adventure start here-->
-		<section class="home-blog home-blog-six padding-120" style="background-color: white;">
+		< !-- Proshow, expo and adventure start here-->
+		<section class="home-blog home-blog-six padding-120" style="background-color: #000000;">
 			<div class="container">
+				<div class="section-header text-center">
+					<h3>Also check Out</h3>
+					<!--<p><em>Quickly harness dynamic thinking through value added models.</em></p>-->
+				</div>
 				<div class="row">
-					<div class="col-lg-4 col-md-6 col-xs-12">
+					
+					<div class="col-lg-4 col-md-6 col-xs-12" style="display: block; margin-left: auto; margin-right: auto;">
 						<div class="blog-item">
 							<div class="image">
-								<a href="single.html"><img src="images/blog/home_blog_01.jpg" alt="Blog image"
+								<a href="single.html"><img src="images/events/Coming_soon-removebg-preview.png" alt="Blog image"
 										class="img-responsive"></a>
 							</div><!-- image -->
-							<div class="content">
-								<h4><a href="single.html">actualze cententrc staled</a></h4>
-								<p>Completely actuaze cent centric coloration an
+							<div class="content" style="background-color: #fff;">
+								<h4 style="color: aliceblue;"><a href="single.html">Pro Show</a></h4>
+								<!--<p>Completely actuaze cent centric coloration an
 									sharing without ainstalled and base awesome
-									event PSD Template.</p>
+									event PSD Template.</p>-->
 							</div><!-- content -->
 						</div><!-- blog item -->
 					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12">
-						<div class="blog-item">
-							<div class="image">
-								<a href="single.html"><img src="images/blog/home_blog_02.jpg" alt="Blog image"
-										class="img-responsive"></a>
-							</div><!-- image -->
-							<div class="content">
-								<h4><a href="single.html">actualze cententrc staled</a></h4>
-								<p>Completely actuaze cent centric coloration an
-									sharing without ainstalled and base awesome
-									event PSD Template.</p>
-							</div><!-- content -->
-							<ul class="post-meta">
-								<li><span class="icon flaticon-tool"></span><a href="#">22.04.2021</a></li>
-								<li><span class="icon flaticon-like"></span><a href="#">12 Like</a></li>
-								<li><span class="icon flaticon-chat"></span><a href="#">24 Comment</a></li>
-							</ul><!-- post-meta -->
-						</div><!-- blog item -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12">
-						<div class="blog-item">
-							<div class="image">
-								<a href="single.html"><img src="images/blog/home_blog_03.jpg" alt="Blog image"
-										class="img-responsive"></a>
-							</div><!-- image -->
-							<div class="content">
-								<h4><a href="single.html">actualze cententrc staled</a></h4>
-								<p>Completely actuaze cent centric coloration an
-									sharing without ainstalled and base awesome
-									event PSD Template.</p>
-							</div><!-- content -->
-							<ul class="post-meta">
-								<li><span class="icon flaticon-tool"></span><a href="#">22.04.2021</a></li>
-								<li><span class="icon flaticon-like"></span><a href="#">12 Like</a></li>
-								<li><span class="icon flaticon-chat"></span><a href="#">24 Comment</a></li>
-							</ul><!-- post-meta -->
-						</div><!-- blog item -->
-					</div>
+					
 				</div><!-- row -->
 			</div><!-- container -->
 		</section><!-- home-blog -->
@@ -869,19 +1142,17 @@
 
 		<!-- Footer Start here -->
 		<footer>
-			<div class="overlay">
+			<div class="overlay home-six-overlay">
 				<div class="container">
-					<h2>Prayaag</h2>
+					<h2>PRAYAAG 3.0</h2>
 					<ul class="event-social">
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						
+						<li><a href="https://instagram.com/prayaag_lbsitw?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/prayaag-lbsitw/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						
 					</ul>
 					<p>Copyright &copy; 2023. Design and Development by <a
-							href="https://www.codexcoder.com/">Web Team</a></p>
+							href="index-reunion.html">WEB TEAM LBSITW</a></p>
 				</div>
 			</div>
 		</footer>

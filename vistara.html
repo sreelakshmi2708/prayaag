@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>BigEvent</title>
+	<title>Vistara</title>
 
 
 	<!-- Google Fonts -->
@@ -58,8 +58,152 @@
 			}
 		}
 		
-		.speakers .speaker-item .speaker-content {
-			text-align: center;
+		.speaker-two {
+    		background: #000000;
+		}
+
+		.speakers .speakers-item .speakers-content h4  {
+    		color: #fff;
+    		text-decoration: none;
+		}
+
+		.speakers .speakers-item .speakers-content span {
+    		font-size: 16px;
+    		color: #fff;
+		}
+
+		.speakers .speakers-item {
+    		overflow: hidden;
+    		margin-bottom: 50px;
+		}
+
+		.speakers-six .speaker-content{
+			background-color: #44318D;
+			color: #fff;
+		}
+
+		.speakers .speakers-item .speakers-content {
+    		text-align: center;
+    		opacity: 1;
+		}
+
+		.schedules .nav-tabs li:last-child a:hover,
+		.schedules .nav-tabs li:last-child a:focus {
+    		border-right: 1px solid #2a1b3d;
+		}
+
+		.schedules .nav-tabs li:last-child.active a {
+    		border-right: 1px solid #44318d;
+		}
+		.schedules .nav-tabs li a:hover,
+		.schedules .nav-tabs li a:focus {
+	    	border: 1px solid #44318d;
+		    border-right: none;
+    		background-color: #44318d;
+    		color: #fff;
+    		margin: 0;
+		}
+
+		.schedules .nav-tabs li a {
+		    border: 1px solid #f0f0f0;
+    		border-right: none;
+    		border-radius: 0;
+		    margin: 0px;
+    		font-size: 24px;
+	    	font-weight: 700;
+    		text-transform: uppercase;
+		    color: #44318d;
+		    padding: 6px 30px;
+    		display: inline-block;
+		}
+
+		.schedules .nav-tabs li a.active {
+    		border: 1px solid #44318d;
+    		border-right: none;
+    		background-color: #44318d;
+    		color: #fff;
+    		margin: 0;
+		}
+
+		.schedules .nav-tabs h4 {
+	    font-size: 24px;
+    	color: #44318d;
+		}
+
+		.schedules .tab-content table th {
+    		border: none;
+		    font-size: 16px;
+    		line-height: 1;
+		    font-weight: 700;
+	    	text-transform: uppercase;
+    		color: #fff;
+		    background-color: #2a1b3d;
+    		padding: 27px 30px;
+		}
+
+		.schedules .tab-content table td:hover {
+		    color: #44318d;
+		}
+
+		.schedules .tab-content .schedule-button {
+    		background-color: #2a1b3d;
+    		padding: 14px 37px;
+		}
+
+		.schedules .tab-content .schedule-button:hover {
+    		background-color: #44318d;
+		}
+		.schedules-two .nav-tabs li a:before {
+    		content: "";
+	    	position: absolute;
+	    	right: 0;
+    		top: 50%;
+		    -webkit-transform: translateY(-50%) rotate(45deg);
+		    transform: translateY(-50%) rotate(45deg);
+		    height: 15px;
+	    	width: 15px;
+    		background-color: #44318d;
+		    opacity: 0;
+		}
+
+		.schedules-two .nav-tabs li a:hover,
+		.schedules-two .nav-tabs li a:focus {
+		    background-color: #44318d;
+		}
+
+		.schedules-two .tab-content table tbody tr:hover {
+		    box-shadow: none;
+		    background-color: #44318d;
+		}
+
+		.schedules-three .nav-tabs li a:before {
+    		content: "";
+    		position: absolute;
+ 			bottom: 0px;
+		    left: 50%;
+		    height: 16px;
+		    width: 16px;
+		    background-color: #44318d;
+		    -webkit-transform: translateX(-50%) rotate(45deg);
+		    transform: translateX(-50%) rotate(45deg);
+		    opacity: 0;
+		}
+
+		.schedules-three .tab-content table td:first-child:before {
+		    content: "";
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    height: 100%;
+		    width: 4px;
+		    background-color: #44318d;
+		    opacity: 0;
+		    -webkit-transition: .3s;
+		    transition: .3s;
+		}
+		.schedules-three .tab-content table tbody tr:hover {
+		    background-color: #313d4f;
+		    border-left: 4px solid #44318d;
 		}
 	</style>
 
@@ -70,11 +214,11 @@
 
 	<div class="box-layout">
 		<!-- header start here-->
-		<header class="style-2">
-			<div class="menu-fixed bgc-1 bgc-vistara">
+		<header>
+			<div class="menu-fixed bgc-trans-5">
 				<nav class="navbar navbar-expand-lg">
 					<div class="container">
-						<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"
+						<a class="navbar-brand" href="index.html"><img src="images/index/Vistara.jpeg (1).jpg" style="height: 60px;width: 60px;" alt="logo"
 								class="img-responsive"></a>
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -86,76 +230,19 @@
 								<div class="menu-left">
 									<ul>
 										<li>
-											<a href="#">Home</a>
-											<ul class="scrollbar" id="style-scroll-v3">
-												<li><a href="index.html">Homepage Style One</a></li>
-												<li><a href="index-2.html">Homepage Style Two</a></li>
-												<li><a href="index-3.html">Homepage Style Three</a></li>
-												<li><a href="index-4.html">Homepage Style Four</a></li>
-												<li><a href="index-5.html">Homepage Style Five</a></li>
-												<li><a href="index-6.html">Homepage Style Six</a></li>
-												<li><a href="index-7.html">Homepage Style Seven</a></li>
-												<li><a href="index-8.html">Homepage Style Eight</a></li>
-												<li><a href="index-9.html">Homepage Style Nine</a></li>
-												<li><a href="index-10.html">Homepage Style Ten</a></li>
-												<li><a href="index-11.html">Homepage Style Eleven</a></li>
-												<li><a href="index-12.html">Homepage Style Twelve</a></li>
-												<li><a href="index-13.html">Homepage Style Thirteen</a></li>
-                                                <li><a href="index-14.html">Homepage Style Fourteen</a></li>
-												<li><a href="index-dark.html">Dark Homepage</a></li>
-												<li><a href="index-reunion.html">Reunion</a></li>
-												<li><a href="index-newyear.html">Newyear</a></li>
-												<li><a href="onepage.html">OnePage</a></li>
-												<li><a href="box-layout.html">Home Box Layout</a></li>
-												<li><a href="index-fashion.html">Fashion</a></li>
-												<li><a href="http://demos.codexcoder.com/labartisan/html/BigEvent-rtl/">
-														الصفحة الرئيسية رتل</a></li>
+											<a href="index.html">Home</a>
+										</li>
+										
+										<li>
+											<a href="#">Events</a>
+											<ul>
+												<li><a href="caryatid.html">Caryatid</a></li>
+												<li><a href="codex.html">Codex</a></li>
+												<li><a href="vistara.html">Vistara</a></li>
 											</ul>
 										</li>
 										<li>
-											<a href="#">About</a>
-											<ul>
-												<li><a href="about.html">About Style One</a></li>
-												<li><a href="about-2.html">About Style Two</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Speakers</a>
-											<ul>
-												<li><a href="speakers.html">Speakers</a></li>
-												<li><a href="speaker-details.html">Speaker Details</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Event></a>
-											<ul>
-												<li><a href="becodem-sponsor.html">Become Sponsoor</a></li>
-												<li><a href="event-sponsor.html">Event Sponsor</a></li>
-												<li><a href="event.gallery.html">Gallery</a></li>
-												<li><a href="event-gallery-massonry.html">Gallery Massonry</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Pages</a>
-											<ul>
-												<li><a href="blog.html">Blog Page</a></li>
-												<li><a href="single.html">Blog Single</a></li>
-												<li><a href="ticket.html">Pricing Table</a></li>
-												<li><a href="schedule.html" class="active">Schedule</a></li>
-												<li><a href="faq.html">faq</a></li>
-												<li><a href="testimonial.html">Testimonial</a></li>
-												<li><a href="venue.html">venue</a></li>
-												<li><a href="coming-soon.html">coming soon</a></li>
-												<li><a href="contact.html">Contact</a></li>
-												<li><a href="404.html">404 Error</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Shop</a>
-											<ul>
-												<li><a href="product.html">Prodect Page</a></li>
-												<li><a href="product-details.html">Product Details</a></li>
-												<li><a href="shop-cart.html">Cart Page</a></li>
-											</ul>
+											<a href="event.gallery.html">Gallery</a>
 										</li>
 									</ul>
 								</div>
@@ -169,8 +256,8 @@
 
 		<!-- banner start here-->
 		<section class="banner banner-five">
-			<video style="width: 100%;" controls>
-				<source src="images/gallery/Codex.mp4" type="video/mp4">
+			<video style="width: 100%; height: 100%;" controls>
+				<source src="images/gallery/vistara.mp4" type="video/mp4">
 				<source src="movie.ogg" type="video/ogg">
 			  Your browser does not support the video tag.
 			  </video>
@@ -409,32 +496,346 @@
 			</div>
 			<!-- overlay -->
 		</section>
-		
-		
-		
 
-		<!-- event-start -->
-		<div class="row">
-			<div class="col-lg-4 col-md-6 col-xs-12">
-				<div class="carde" style="margin-top: 4px; margin-left:7px; align-items: center; margin-bottom: 5px;">
-					Magic Card
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-xs-12">
-				<div class="carde" style="margin-top: 4px; margin-left:7px; align-items: center; margin-bottom: 5px;">
-					Magic Card
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-xs-12">
-				<div class="carde" style="margin-top: 4px; margin-left:7px; align-items: center; margin-bottom: 5px;">
-					Magic Card
-				</div>
-			</div>
-		</div>
+
+		<!-- Speakers start here -->
+		<section class="speakers speakers-six">
+			<div class="overlay home-six-overlay">
+				<div class="container">
+					<div class="section-header text-center">
+						<h3>EVENTS</h3>
+						<!--<p><em>Quickly harness dynamic thinking through value added models.</em></p>-->
+					</div>
+					<div class="speaker-items">
+						<div class="row">
+                            <!-- Ice Breaking Session -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Ice Breaking Session.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!-- Logic Loot -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Logic Loot.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													Hola amigos✨,<br>
+													🔥Get ready for an adventure of a lifetime! 𝐏𝐑𝐀𝐘𝐀𝐀𝐆 3.0 is thrilled to invite you to our upcoming<br>
+													🤩𝗧𝗿𝗲𝗮𝘀𝘂𝗿𝗲 𝗛𝘂𝗻𝘁🤩<br>
+													👻It's time to put on your explorer hats, grab your maps, and prepare for an unforgettable quest for hidden treasures.<br>
+													Register now: <a href="https://bit.ly/logicloot">bit.ly/logicloot</a><br>
+													Rules @ <a href="https://bit.ly/Rulebook_vistara">bit.ly/Rulebook_vistara</a> <br>
+													For inquiries contact:<br>
+													👾𝗔𝗻𝗮𝗺𝗶𝗸𝗮 𝗦 𝗡𝗮𝗶𝗿- <a href="tel:8281755060">8281755060</a><br>
+													👾𝗗evu SR - <a href="tel:9188056377">9188056377</a><br>
+													Don't miss the fun🤩🤩<br>
+													See u there🤝<br>
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!-- AI in communication systems -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/AI in communication systems.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													Hey AI enthusiasts,<br>
+                                                    Are you ready to learn all abou AI and how it connects with elecctronics domain?Here is the perfect chance!!<br>
+                                                    𝐏𝐑𝐀𝐘𝐀𝐀𝐆 3.0 invites you to a session on,<br>
+                                                    ⚙𝗔𝗜 𝗜𝗡 COMMUNICATION SYSTEMS⚙<br>
+                                                    ⏰𝗗𝗮𝘁𝗲 : 01.09.2023<br>
+                                                    ⭕𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗳𝗲𝗲: 70 per head<br> 
+                                                    Register now:<a href="http://bit.ly/48rV7Hm">bit.ly/48rV7Hm</a><br>
+                                                    Rules@<a href="https://bit.ly/Rulebook_vistara">bit.ly/Rulebook_vistara</a><br>
+                                                    𝐅𝐨𝐫 𝐄𝐧𝐪𝐮𝐢𝐫𝐢𝐞𝐬,<br>
+                                                    Thara Thilak: <a href="tel:+918137873082">8137873082</a><br>
+                                                    Devika V R: <a href="tel:+919496284822">9496284822</a><br>
+                                                    ⭕⭕⭕⭕⭕⭕⭕⭕⭕<br>
+                                                    𝑪𝒐𝒎𝒆 𝒍𝒆𝒂𝒓𝒏 𝒘𝒊𝒕𝒉 𝒖𝒔✨<br>
+
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!--Robo race-->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Robo Race.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													ʜᴇʏ ᴘᴇᴇᴘs,<br>
+                                                    Are you ready for an adrenalin boost? We are here with yet another spectacular competition✨<br>
+                                                    𝐏𝐑𝐀𝐘𝐀𝐀𝐆 in associatoin with  𝐑𝐨𝐛𝐨𝐭𝐢𝐜𝐬 𝐂𝐥𝐮𝐛,  𝐋𝐁𝐒𝐈𝐓𝐖 is here to fire up your boots with ,<br>
+                                                    🔥𝗥𝗢𝗕𝗢 𝗥𝗔𝗖𝗘🔥<br>
+                                                    🔴𝐃𝐚𝐭𝐞: 30 September 2023<br>
+                                                    🔹𝐑𝐞𝐠𝐢𝐬𝐭𝐚𝐫𝐭𝐢𝐨𝐧 fee: 300/team<br>
+                                                    💰Gpay Number: 73060 99893<br>
+                                                    🔖Guidelines : <a href="https://bit.ly/Robo-Race">bit.ly/Robo-Race</a><br>
+                                                    For further queries,<br>
+                                                    Contact:<br>
+                                                    Nitya Ann Kurien- <a href="tel:7306099893">7306099893</a><br>
+                                                    Aarathy Variar - <a href="tel:9354487544">9354487544</a><br>
+                                                    🔴🔴🔴🔴🔴🔴🔴🔴🔴<br>
+                                                    𝑪𝒐𝒎𝒆 𝑱𝒐𝒊𝒏 𝒕𝒉𝒆 𝒃𝒂𝒕𝒕𝒍𝒆....<br>
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!--Line Follower-->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Line Follower.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													𝑯𝒆𝒚 𝒑𝒆𝒆𝒑𝒔 ,<br>
+													Are you ready have for a marveleous showdown of tech skills and speed ?<br>
+													𝐏𝐑𝐀𝐘𝐀𝐀𝐆 3.0 in association with 𝐑𝐨𝐛𝐨𝐭𝐢𝐜𝐬 𝐂𝐥𝐮𝐛 invites you to ,<br>
+													🏁𝗟𝗜𝗡𝗘 𝗙𝗢𝗟𝗟𝗢𝗪𝗘𝗥 <br>
+													𝗖𝗢𝗠𝗣𝗘𝗧𝗜𝗧𝗜𝗢𝗡🏁<br>
+													📅𝗗𝗮𝘁𝗲: 1 October 2023<br>
+													‼𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗳𝗲𝗲: 150/team<br>
+													💸𝗚𝗽𝗮𝘆: 9074807738<br>
+													🔖 Guidelines:  <a href="https://bit.ly/line-Follower">bit.ly/line-Follower</a><br>
+													For further queries,<br>
+													Contact:<br>
+													Vishnupriya Sasidharan - <a href="tel:9074807738">9074807738</a><br>
+													Aparna S S - <a href="tel:7025817931">7025817931</a><br>
+													⭕⭕⭕⭕⭕⭕⭕⭕⭕<br>
+													𝑆ℎ𝑜𝑤𝑐𝑎𝑠𝑒 𝑦𝑜𝑢𝑟 𝑠𝑝𝑒𝑒𝑑🔥<br>
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!--Robo War-->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Robo War.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													Hey all🥳,<br>
+													𝐏𝐑𝐀𝐘𝐀𝐀𝐆 3.0 in collaboration with 𝑹𝒐𝒃𝒐𝒕𝒊𝒄𝒔 𝑪𝒍𝒖𝒃, 𝑳𝑩𝑺𝑰𝑻𝑾  is elated to invite you all to an epic battle! 🤖💥 <br>
+													Get ready for adrenaline-pumping battles and fierce robot showdowns. 🔥<br>
+													🤖𝗥𝗢𝗕𝗢 𝗪𝗔𝗥 🤖<br>
+													🗓𝐃𝐚𝐭𝐞: 30 September 2023<br>
+													🪙𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 𝐟𝐞𝐞: 700/team<br>
+													💸𝐆𝐩𝐚𝐲: 92070 63393<br>
+													🔖 Guidelines: <a href="https://bitly.ws/Vm67">bitly.ws/Vm67</a><br>
+													For further queries,<br>
+													Contact:<br>
+													Jaseema Jasmine - <a href="tel:9207063393">9207063393</a><br>
+													Arya Sanker - <a href="tel:7250861040">7250861040</a><br>
+													‼‼‼‼‼‼‼‼‼<br>
+													Spread the word and let's make this event unforgettable! 🚀🔥<br>
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!--Circuit Debugging-->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Circuit Debugging.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													Hey guys😇<br>
+													Are you a circuit wizard, ready to put your skills to the test?🧙🏻‍♀ <br>
+													🤩𝐏𝐑𝐀𝐘𝐀𝐀𝐆 3.0 is excited to invite you to our upcoming <br>
+													✨𝗖𝗶𝗿𝗰𝘂𝗶𝘁 𝗗𝗲𝗯𝘂𝗴𝗴𝗶𝗻𝗴 𝗖𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝗼𝗻✨<br>
+    												where sparks will fly, and circuits will come to life!🤩<br>
+													Get ready to unleash your inner engineer and prove your mettle in a challenging yet exhilarating contest.🥳🥳<br>
+													📅 𝗗𝗮𝘁𝗲: 30.09.2023<br>
+													✨𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗳𝗲𝗲: 70/head<br>
+													✨𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗹𝗶𝗻𝗸: <a href="https://rb.gy/36nuv">rb.gy/36nuv</a><br>
+													Rules@ <a href="https://bit.ly/Rulebook_vistara">bit.ly/Rulebook_vistara</a><br>
+													For inquiries contact :<br>
+													🕸𝗕𝗵𝗮𝗴𝘆𝗮 - <a href="tel:7736164615">7736164615</a><br>
+													🕸𝗗𝗲𝘃𝗮𝗻𝗮𝗻𝗱𝗮 - <a href="tel:7907560166">7907560166</a><br>
+													Book your seats for this exciting event😇<br>
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!-- Ideathon -->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/IdeathonVistara.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													𝙷𝚎𝚢 𝚃𝚎𝚌𝚑𝚒𝚎𝚜,<br>
+													Are you someone who is always brimming with ideas and new designs?<br>
+													We have the perfect stage for you 🥳!<br>
+													𝐏𝐑𝐀𝐘𝐀𝐀𝐆 3.0 in association with 𝗜𝗘𝗗𝗖 presents ,<br>
+													🧠  𝗜𝗗𝗘𝗔𝗧𝗛𝗢𝗡 🧠<br>
+													📆𝗗𝗮𝘁𝗲: 30.09.2023<br>
+													🔸𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗳𝗲𝗲 : 60/head<br>
+													Registration Link: <a href="https://bit.ly/Ideathon_Vistara">bit.ly/Ideathon_Vistara</a> <br>
+													Rules @ <a href="https://bit.ly/Rulebook_vistara">bit.ly/Rulebook_vistara</a><br>
+													Just bring you ideas and return with prizes!!!<br>
+													Contact:<br>
+													𝖠𝗇𝗃𝖺𝗇𝖺 𝖡: <a href="tel:9188229830">9188229830</a><br>
+													𝖠𝗅𝖿𝗂𝗒𝖺 𝖬𝗎𝖻𝖺𝗋𝖺𝗄: <a href="tel:8089812802">8089812802</a><br>
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!--Laser Maze-->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Laser Maze.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													ʜᴇʏ ᴘᴇᴇᴘs ,<br>
+													Are you someone with a thirst for adventure? We are here with a technical twist to an nail-bitting adventure✨<br>
+													𝐏𝐑𝐀𝐘𝐀𝐀𝐆 3.0 is here to keep you on your toes with,<br>
+													        💎  𝗟𝗔𝗦𝗘𝗥 𝗠𝗔𝗭𝗘  💎<br>
+															⭕𝗗𝗮𝘁𝗲:01/10/23<br>
+															◽𝗥𝗲𝗴𝗶𝘀𝘁𝗮𝗿𝗮𝘁𝗶𝗼𝗻 𝗳𝗲𝗲𝘀:Rs.40<br>
+															‼𝗥𝗲𝗴𝗶𝘀𝘁𝗮𝗿𝘁𝗶𝗼𝗻 𝗹𝗶𝗻𝗸: <a href="https://bit.ly/3t3dkea">bit.ly/3t3dkea</a><br>
+															Rules@ <a href="https://bit.ly/Rulebook_vistara">bit.ly/Rulebook_vistara</a><br>
+															𝖥𝗈𝗋 Gpay and 𝖤𝗇𝗊𝗎𝗂𝗋𝖾𝗌,<br>
+															𝗞𝗮𝘃𝘆𝗮 𝗠𝗮𝗻𝗼𝗷 :<a href="tel:8129128058">8129128058</a><br>
+															𝗙𝗮𝗿𝘀𝗮𝗻𝗮:<a href="tel:7306889668">7306889668</a><br>
+															⭕⭕⭕⭕⭕⭕⭕⭕⭕<br>
+															ʟᴇᴛs ʙᴇɢɪɴ ᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴇ ᴛᴏɢᴇᴛʜᴇʀ❣<br>
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!--Blender-->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Blender.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													ʜᴇʏ ᴛᴇᴄʜᴘʜɪʟᴇs,<br>
+													Are you ready to learn a new and amazing that you can add to your set of skills?<br>
+													𝐏𝐑𝐀𝐘𝐀𝐀𝐆 3.0 brings you,<br>
+													🖌𝗕𝗟𝗘𝗡𝗗𝗘𝗥 𝗪𝗢𝗥𝗞𝗦𝗛𝗢𝗣🖌<br>
+													⭕𝗗𝗮𝘁𝗲: 30/09/2023<br>
+													🔹𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗳𝗲𝗲: 𝖱𝗌.350<br>
+													🔗𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗹𝗶𝗻𝗸: <a href="https://bit.ly/blender_worshop">bit.ly/blender_worshop</a><br>
+													Rules @ <a href="https://bit.ly/Rulebook_vistara">bit.ly/Rulebook_vistara</a><br>
+													𝐅𝐨𝐫 𝐄𝐧𝐪𝐮𝐞𝐫𝐢𝐞𝐬 𝐚𝐧𝐝 𝐆𝐩𝐚𝐲,<br>
+													Divya B M: <a href="tel:9446437897">9446437897</a><br>
+													Ashtami Sekhar : <a href="tel:9496495474">9496495474</a><br>
+													Come, learn something new✨<br>
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!--Mastering Proteus-->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Mastering Proteus.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+                            <!--Line Follower-->
+							<div class="col-lg-4 col-md-6 col-xs-12">
+								<div class="speaker-item">
+									<div class="speaker-image dh-container">
+										<img src="images/events/Line Follower Vistara.jpg" alt="speaker image"
+											class="img-responsive">
+										<div class="speaker-content-bg dh-overlay">
+											<div class="speaker-content">
+												<div class="content">
+													𝘈𝘵𝘵𝘦𝘯𝘵𝘪𝘰𝘯 𝘢𝘭𝘭 𝘛𝘦𝘤𝘩 𝘌𝘯𝘵𝘩𝘶𝘴𝘪𝘢𝘴𝘵𝘴💥,<br>
+													Gear up for a coding adventure like no other!<br>
+													Join 𝐏𝐑𝐀𝐘𝐀𝐀𝐆 at the ,<br>
+													🕹𝗟𝗶𝗻𝗲 𝗙𝗼𝗹𝗹𝗼𝘄𝗲𝗿 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽🕹<br>
+													taking place at 𝐋𝐁𝐒 𝐈𝐧𝐬𝐭𝐢𝐭𝐮𝐭𝐞 𝐨𝐟 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲, and let your skills shine as you tackle real-world challenges. 💻<br>
+													🔗Register now:<br>
+													🚨𝗗𝗮𝘁𝗲:  30.09.2023<br>
+													🚨𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗳𝗲𝗲: 800 per head<br>
+													🚨𝗥𝗲𝗴𝗶𝘀𝘁𝗮𝗿𝘁𝗶𝗼𝗻 𝗹𝗶𝗻𝗸: <a href="https://bit.ly/Line_Follower_Robot_wk">bit.ly/Line_Follower_Robot_wk</a> <br>
+													Rules: <a href="https://bit.ly/Rulebook_vistara">bit.ly/Rulebook_vistara</a><br>
+													🛑For more enquiry,<br>
+													Contact<br>
+													𝗔𝘃𝗮𝗻𝗶 𝗥𝗮𝗷𝗲𝗲𝘃:<a href="tel:7736652521">7736652521</a><br>
+													𝗔𝗺𝗿𝗶𝘁𝗮 𝗠.𝗠:<a href="tel:9946830256">9946830256</a><br>
+													⭕⭕⭕⭕⭕⭕⭕⭕⭕<br>
+													See you there...🔥🙌🏻<br>
+												</div>
+											</div><!-- speaker-content -->
+										</div><!-- speaker-content-bg -->
+									</div><!-- speaker-image -->
+								</div><!-- speaker-item -->
+							</div>
+						</div><!-- row -->
+
+					</div><!-- speaker-items -->
+				</div><!-- container -->
+			</div><!-- overlay -->
+		</section>
 		<!-- event-end -->
 	
 
-		<section class="speakers speakers-two padding-120">
+		<section class="speakers speaker-two padding-120">
             <div class="container">
                 <div class="section-header text-center">
                     <h3>MEET THE TEAM</h3>
@@ -443,13 +844,13 @@
                 <div class="speaker-items">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Aswini.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Aswini Shaji Archa</h4>
 									<span>Association Secretary</span>
                                 </div>
@@ -458,13 +859,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Drishya_N.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Drishya N</h4>
 									<span>Join Secretary</span>
                                 </div>
@@ -473,13 +874,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/N_Shivani_Rao.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>N Shivani Rao</h4>
 									<span>Treasurer</span>
                                 </div>
@@ -488,13 +889,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Sulthana.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Sulthana Sayed</h4>
 									<span>Mentor</span>
                                 </div>
@@ -503,13 +904,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Gowri Lakshmi_AS.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Gowri Lakshmi AS</h4>
 									<span>Content Lead</span>
                                 </div>
@@ -518,13 +919,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Aparna_B_Nair.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Aparna B Nair</h4>
 									<span>Content Team</span>
                                 </div>
@@ -533,13 +934,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Anarkha_A.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Anarkha A</h4>
 									<span>Content Team</span>
                                 </div>
@@ -548,13 +949,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Jaseema_Jasmin.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Jaseema Jasmin</h4>
 									<span>Content Team</span>
                                 </div>
@@ -563,13 +964,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Vaishnavi_RB.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Vaishnavi RB</h4>
 									<span>Content Team</span>
                                 </div>
@@ -578,13 +979,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Janet_Sara_Geejo.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Janet Sara Geejo</h4>
 									<span>Design Lead</span>
                                 </div>
@@ -593,13 +994,13 @@
                             <!-- speaker-item -->
                         </div>
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Avani_Rajeev.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Avani Rajeev</h4>
 									<span>Design Team</span>
                                 </div>
@@ -608,13 +1009,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Devanandhini.png" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Devanandhini B</h4>
 									<span>Design Team</span>
                                 </div>
@@ -623,13 +1024,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Devika_VR.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Devika VR</h4>
 									<span>Design Team</span>
                                 </div>
@@ -638,13 +1039,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Farsana_M.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Farsana M</h4>
 									<span>Design Team</span>
                                 </div>
@@ -653,13 +1054,13 @@
                             <!-- speaker-item -->
                         </div>
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Binza_Mariyam.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Binza Mariyam</h4>
 									<span>Video Editing Team</span>
                                 </div>
@@ -668,13 +1069,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/SP_Gayathri.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>SP Gayathri</h4>
 									<span>Video Editing Team</span>
                                 </div>
@@ -683,13 +1084,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Gopika_Anilkumar.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Gopika Anilkumar</h4>
 									<span>Publicity Team</span>
                                 </div>
@@ -698,13 +1099,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Pooja_Chandran_G.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Pooja Chandran G</h4>
 									<span>Publicity Team</span>
                                 </div>
@@ -713,13 +1114,13 @@
                             <!-- speaker-item -->
                         </div>
 						<div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="speaker-item">
+                            <div class="speakers-item">
                                 <div class="speaker-image">
                                     <img src="images/vistarateam/Shraddha.jpg" alt="speaker image"
                                         class="img-responsive">
                                 </div>
                                 <!-- speaker-image -->
-                                <div class="speaker-content">
+                                <div class="speakers-content">
                                     <h4>Shraddha</h4>
 									<span>Publicity Team</span>
                                 </div>
@@ -736,7 +1137,7 @@
         </section>
         <!-- Speakers end here -->
 
-		<!-- sponsor start here -->
+		<!-- sponsor
 		<section id="sponsor " class="sponsor sponsor-uhv event-sponsor-page padding-120">
 			<div class="container">
 				<div class="section-header text-center">
@@ -746,7 +1147,7 @@
 
 				<div class="section-wrapper">
 
-					<!-- platinum sponsor -->
+					< !-- platinum sponsor 
 					<div class="sponsor-type-item platinum-sponsor">
 						<h6 class="sponsor-type">Platinum sponsors</h6>
 						<div class="sponsor-list">
@@ -770,7 +1171,7 @@
 						</div>
 					</div>
 
-					<!-- gold sponsor -->
+					<! -- gold sponsor 
 					<div class="sponsor-type-item gold-sponsor">
 						<h6 class="sponsor-type">Gold sponsors</h6>
 						<div class="sponsor-list">
@@ -799,7 +1200,7 @@
 						</div>
 					</div>
 
-					<!-- silver sponsor -->
+					< !-- silver sponsor 
 					<div class="sponsor-type-item silver-sponsor">
 						<h6 class="sponsor-type">Silver sponsors</h6>
 						<div class="sponsor-list">
@@ -841,62 +1242,30 @@
 				</div>
 			</div>
 		</section>
-		<!-- Proshow, expo and adventure start here-->
-		<section class="home-blog home-blog-six padding-120" style="background-color: white;">
+		< !-- Proshow, expo and adventure start here-->
+		<section class="home-blog home-blog-six padding-120" style="background-color: #000000;">
 			<div class="container">
+				<div class="section-header text-center">
+					<h3>Also check Out</h3>
+					<!--<p><em>Quickly harness dynamic thinking through value added models.</em></p>-->
+				</div>
 				<div class="row">
-					<div class="col-lg-4 col-md-6 col-xs-12">
+					
+					<div class="col-lg-4 col-md-6 col-xs-12" style="display: block; margin-left: auto; margin-right: auto;">
 						<div class="blog-item">
 							<div class="image">
-								<a href="single.html"><img src="images/blog/home_blog_01.jpg" alt="Blog image"
+								<a href="single.html"><img src="images/events/Coming_soon-removebg-preview.png" alt="Blog image"
 										class="img-responsive"></a>
 							</div><!-- image -->
-							<div class="content">
-								<h4><a href="single.html">actualze cententrc staled</a></h4>
-								<p>Completely actuaze cent centric coloration an
+							<div class="content" style="background-color: #fff;">
+								<h4 style="color: aliceblue;"><a href="single.html">Pro Show</a></h4>
+								<!--<p>Completely actuaze cent centric coloration an
 									sharing without ainstalled and base awesome
-									event PSD Template.</p>
+									event PSD Template.</p>-->
 							</div><!-- content -->
 						</div><!-- blog item -->
 					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12">
-						<div class="blog-item">
-							<div class="image">
-								<a href="single.html"><img src="images/blog/home_blog_02.jpg" alt="Blog image"
-										class="img-responsive"></a>
-							</div><!-- image -->
-							<div class="content">
-								<h4><a href="single.html">actualze cententrc staled</a></h4>
-								<p>Completely actuaze cent centric coloration an
-									sharing without ainstalled and base awesome
-									event PSD Template.</p>
-							</div><!-- content -->
-							<ul class="post-meta">
-								<li><span class="icon flaticon-tool"></span><a href="#">22.04.2021</a></li>
-								<li><span class="icon flaticon-like"></span><a href="#">12 Like</a></li>
-								<li><span class="icon flaticon-chat"></span><a href="#">24 Comment</a></li>
-							</ul><!-- post-meta -->
-						</div><!-- blog item -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12">
-						<div class="blog-item">
-							<div class="image">
-								<a href="single.html"><img src="images/blog/home_blog_03.jpg" alt="Blog image"
-										class="img-responsive"></a>
-							</div><!-- image -->
-							<div class="content">
-								<h4><a href="single.html">actualze cententrc staled</a></h4>
-								<p>Completely actuaze cent centric coloration an
-									sharing without ainstalled and base awesome
-									event PSD Template.</p>
-							</div><!-- content -->
-							<ul class="post-meta">
-								<li><span class="icon flaticon-tool"></span><a href="#">22.04.2021</a></li>
-								<li><span class="icon flaticon-like"></span><a href="#">12 Like</a></li>
-								<li><span class="icon flaticon-chat"></span><a href="#">24 Comment</a></li>
-							</ul><!-- post-meta -->
-						</div><!-- blog item -->
-					</div>
+					
 				</div><!-- row -->
 			</div><!-- container -->
 		</section><!-- home-blog -->
@@ -904,19 +1273,17 @@
 
 		<!-- Footer Start here -->
 		<footer>
-			<div class="overlay">
+			<div class="overlay home-six-overlay">
 				<div class="container">
-					<h2>Prayaag</h2>
+					<h2>PRAYAAG 3.0</h2>
 					<ul class="event-social">
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						
+						<li><a href="https://instagram.com/prayaag_lbsitw?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/prayaag-lbsitw/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						
 					</ul>
 					<p>Copyright &copy; 2023. Design and Development by <a
-							href="https://www.codexcoder.com/">Web Team</a></p>
+							href="index-reunion.html">WEB TEAM LBSITW</a></p>
 				</div>
 			</div>
 		</footer>

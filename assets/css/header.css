@@ -439,10 +439,10 @@ header.style-3 .menu-item-has-children>a::after {
     min-height: 90px;
 }
 .menu-fixed.bgc-codex {
-    background: #4e00c2;
+    background: #2A1B3D;
 }
 .menu-fixed.bgc-vistara {
-    background: #4e00c2;
+    background: #000;
 }
 .menu-fixed.bgc-caryatid {
     background: #4e00c2;
